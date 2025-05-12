@@ -1,4 +1,3 @@
-import Cruises from "../Cruises";
 import { Wrapper, Header, List, Tile, Name, Description } from "./styled";
 
 const Offer = () => {
@@ -19,7 +18,6 @@ const Offer = () => {
                     <Description>Wypożyczalnia rowerów tradycyjnych, elektycznych oraz sprzętu rowerowego znajdująca się przy naszej przystani w Czorsztynie.</Description>
                 </Tile>
             </List>
-            <Cruises />
         </Wrapper>
     );
 };
