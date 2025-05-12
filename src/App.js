@@ -1,13 +1,13 @@
-import Banner from './components/Banner';
 import { Container } from './components/Container';
 import Content from './components/Content';
 import { GlobalStyle } from './GlobalStyle';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Banner />
+      <Hero />
       <Container>
         <Content />
       </Container>
