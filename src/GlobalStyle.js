@@ -13,5 +13,6 @@ export const GlobalStyle = createGlobalStyle`
         background: #FBFBFE;
         font-family: "Inter", sans-serif;
         color: #252525;
+        overflow-x: hidden;
     }
 `;

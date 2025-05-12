@@ -1,5 +1,6 @@
 import Banner from './components/Banner';
 import { Container } from './components/Container';
+import Content from './components/Content';
 import { GlobalStyle } from './GlobalStyle';
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
     <>
       <GlobalStyle />
       <Banner />
-      <Container></Container>
+      <Container>
+        <Content />
+      </Container>
     </>
   );
 }
