@@ -16,7 +16,7 @@ export const CruisesSection = styled.section`
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 900px;
+        height: 800px;
     }
 `;
 
