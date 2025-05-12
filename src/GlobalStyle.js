@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         background: #FBFBFE;
-        font-family: "Inter", sans-serif;
+        font-family: "Poppins", sans-serif;
         color: #252525;
         overflow-x: hidden;
     }

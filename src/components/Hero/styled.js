@@ -15,7 +15,7 @@ export const HeroSection = styled.section`
   color: white;
   text-align: center;
 
-      @media (max-width: 767px) {
+      @media (max-width: 991px) {
         height: 50vh;
 }
 `;
