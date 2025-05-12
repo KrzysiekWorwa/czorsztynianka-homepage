@@ -1,4 +1,3 @@
-import { Container } from './components/Container';
 import Content from './components/Content';
 import { GlobalStyle } from './GlobalStyle';
 import Hero from './components/Hero';
@@ -8,9 +7,7 @@ function App() {
     <>
       <GlobalStyle />
       <Hero />
-      <Container>
-        <Content />
-      </Container>
+      <Content />
     </>
   );
 }
