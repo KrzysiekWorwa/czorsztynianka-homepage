@@ -1,9 +1,7 @@
-import { HeroSection, Overlay } from "./styled";
+import { HeroSection } from "./styled";
 
 const Hero = () => (
-    <HeroSection>
-        <Overlay />
-    </HeroSection>
+    <HeroSection />
 );
 
 export default Hero;

@@ -44,6 +44,7 @@ export const Tile = styled.li`
 
     @media (max-width: 767px) {
         padding: 20px;
+        border: 2px solid rgb(241, 241, 241);
     }
 `;
 

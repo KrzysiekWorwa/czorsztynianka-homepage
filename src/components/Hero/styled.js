@@ -19,10 +19,3 @@ export const HeroSection = styled.section`
         height: 50vh;
 }
 `;
-
-export const Overlay = styled.div`
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.0); /* przyciemnia tło */
-  z-index: 1;
-`;
