@@ -35,7 +35,7 @@ export const List = styled.ul`
 export const Tile = styled.li`
     padding: 56px;
     border-radius: 4px;
-    border: 2px solid rgba(209, 213, 218, 0.3);
+    border: 2px solid  #FBFBFE;
     margin: 0;
 
     &:hover {
