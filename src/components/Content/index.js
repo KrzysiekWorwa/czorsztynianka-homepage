@@ -1,5 +1,5 @@
 import Cruises from "./Cruises";
-import Prices from "./Cruises/Price";
+import PriceList from "./Cruises/PriceList";
 import Offer from "./Offer";
 import { Container } from "./styled";
 
@@ -8,7 +8,7 @@ const Content = () => {
         <Container>
             <Offer />
             <Cruises />
-            <Prices />
+            <PriceList />
         </ Container>
     );
 };
