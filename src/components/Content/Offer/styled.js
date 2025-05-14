@@ -6,6 +6,8 @@ export const Wrapper = styled.section`
     align-items: center;
     padding: 40px;
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 69px;
 `;
 
 
@@ -24,7 +26,7 @@ export const List = styled.ul`
     grid-gap: 32px;
     list-style: none;
     padding: 0;
-    margin-top: 24px;
+    margin: 0;
 
     @media (max-width: 991px) {
         grid-template-columns: 1fr;
@@ -35,7 +37,7 @@ export const List = styled.ul`
 export const Tile = styled.li`
     padding: 56px;
     border-radius: 4px;
-    border: 2px solid  #FBFBFE;
+    border: 2px solid rgb(240, 240, 240);
     margin: 0;
 
     &:hover {
