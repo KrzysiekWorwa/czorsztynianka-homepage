@@ -62,7 +62,7 @@ export const Description = styled.p`
 `;
 
 export const CruiseImage = styled.img`
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
 
