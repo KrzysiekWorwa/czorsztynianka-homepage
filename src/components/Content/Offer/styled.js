@@ -8,6 +8,10 @@ export const Wrapper = styled.section`
     text-align: center;
     padding-top: 0px;
     padding-bottom: 69px;
+
+        @media (max-width: 767px) {
+        padding-bottom: 10px;;
+}
 `;
 
 
