@@ -16,12 +16,12 @@ export const CruisesSection = styled.section`
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 800px;
+        height: 1100px;
     }
 `;
 
 export const ContentWrapper = styled.div`
-     background: rgba(0, 0, 0, 0.3);
+     background: rgba(0, 0, 0, 0.5);
      padding-bottom: 15px;
 
          @media (max-width: 991px) {
