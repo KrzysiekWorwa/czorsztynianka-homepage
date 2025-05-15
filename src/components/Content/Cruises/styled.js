@@ -6,7 +6,7 @@ export const CruisesSection = styled.section`
   align-items: center;
 
   @media (min-width: 992px) {
-    padding: 0 40px;
+    padding: 40px 40px;
   }
 `;
 
