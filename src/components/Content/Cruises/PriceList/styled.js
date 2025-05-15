@@ -20,13 +20,14 @@ export const StyledTable = styled.table`
 
 export const TableHeader = styled.th`
   padding: 16px;
-  background-color: #f0f0f0;
-  font-size: 1.5rem;
+  background-color:teal;
+  font-size: 1.6rem;
+  color: white;
 `;
 
 export const TableRow = styled.tr`
   border-top: 1px solid #ddd;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 
   @media (max-width: 768px) {
     display: block;
