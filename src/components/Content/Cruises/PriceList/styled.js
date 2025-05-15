@@ -20,7 +20,7 @@ export const StyledTable = styled.table`
 
 export const TableHeader = styled.th`
   padding: 16px;
-  background-color:teal;
+  background-color:rgb(88, 148, 64);
   font-size: 1.6rem;
   color: white;
 `;

@@ -3,11 +3,11 @@ import { StyledTable, TableHeader, TableCell, TableRow } from "./styled";
 import { ReactComponent as OneSideIcon } from "./1sideIcon.svg";
 import { ReactComponent as TwoSideIcon } from "./2sidesIcon.svg";
 import { ReactComponent as RoundIcon } from "./RoundIcon.svg";
-import { ReactComponent as BikeIcon } from "./bikeIcon.svg";
+import { ReactComponent as BikeIcon } from "./bicycle-54.svg";
 
 const PriceList = () => (
     <Wrapper>
-        <Header>Cennik</Header>
+        <Header>Cennik rejsów</Header>
         <StyledTable>
             <thead>
                 <TableRow>

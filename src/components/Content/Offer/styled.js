@@ -43,6 +43,7 @@ export const Tile = styled.li`
     border-radius: 10px;
     border: 2px solid rgb(240, 240, 240);
     margin: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
 
     &:hover {
         border-color: rgba(3, 102, 214, 0.2);
