@@ -1,4 +1,4 @@
-import { HousesSection, HousesHeader, HousesDescriptionSection, HousesDescription, HousesImageWrapper, HousesImage } from "./styled";
+import { HousesSection, HousesHeader, HousesDescriptionSection, HousesDescription, HousesImageWrapper, HousesImage, HousesLink } from "./styled";
 import houseImage from "./domek.jpg"
 
 const Houses = () => (
@@ -11,7 +11,7 @@ const Houses = () => (
                 Domek przeznaczony jest dla maksymalnie 6 osób. <br />
                 <strong>Cennik:</strong><br />
                 4 osoby: 400-500 zł/doba<br />
-                Rezerwacje za pośrednictwem Booking.com lub telefonicznie +48 509 923 730
+                Rezerwacje za pośrednictwem  <HousesLink href="https://www.booking.com/hotel/pl/zamkowe-wzgorze.pl.html" target="_blank" rel="noopener noreferrer">Booking.com</HousesLink> lub telefonicznie +48 509 923 730
             </HousesDescription>
         </HousesDescriptionSection>
         <HousesImageWrapper>

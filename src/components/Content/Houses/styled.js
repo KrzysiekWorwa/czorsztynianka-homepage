@@ -82,3 +82,11 @@ export const HousesImage = styled.img`
   object-fit: cover;
 max-height: 750px;
 `;
+
+export const HousesLink = styled.a`
+  color:hsl(212, 97.20%, 42.50%);
+
+    &:hover {
+        color:hsl(212, 97.20%, 60%);
+    }
+`;
