@@ -6,7 +6,7 @@ const Offer = () => {
         <Wrapper>
             <Header>Nasza oferta</Header>
             <List>
-                <Tile as={Link} to="rejsy-po-jeziorze" smooth={true} duration={500} offset={-70} style={{ cursor: 'pointer' }}>
+                <Tile as={Link} to="rejsy-po-jeziorze" smooth={true} duration={600} offset={-70} style={{ cursor: 'pointer' }}>
                     <Name>Rejsy po jeziorze Czorsztyńskim</Name>
                     <Description>Przyroda w zasięgu ręki! Wyjątkowe gondole przewiozą Cię po Jeziorze Czorsztyńskim</Description>
                 </Tile>
