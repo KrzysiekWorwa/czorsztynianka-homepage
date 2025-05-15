@@ -1,4 +1,5 @@
 import Bikes from "./Bikes";
+import BikesPriceList from "./Bikes/BikesPriceList";
 import Cruises from "./Cruises";
 import PriceList from "./Cruises/PriceList";
 import Houses from "./Houses";
@@ -13,6 +14,7 @@ const Content = () => {
             <PriceList />
             <Houses />
             <Bikes />
+            <BikesPriceList />
         </ Container>
     );
 };
