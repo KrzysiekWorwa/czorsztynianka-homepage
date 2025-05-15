@@ -1,11 +1,12 @@
 import { Wrapper, Header, List, Tile, Name, Description } from "./styled";
+import { Link } from "react-scroll";
 
 const Offer = () => {
     return (
         <Wrapper>
             <Header>Nasza oferta</Header>
             <List>
-                <Tile>
+                <Tile as={Link} to="rejsy-po-jeziorze" smooth={true} duration={500} offset={-70} style={{ cursor: 'pointer' }}>
                     <Name>Rejsy po jeziorze Czorsztyńskim</Name>
                     <Description>Przyroda w zasięgu ręki! Wyjątkowe gondole przewiozą Cię po Jeziorze Czorsztyńskim</Description>
                 </Tile>

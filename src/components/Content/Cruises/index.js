@@ -3,7 +3,7 @@ import { CruiseImage } from "./styled";
 import cruiseImage from "./cruise.jpg"
 
 const Cruises = () => (
-    <CruisesSection>
+    <CruisesSection id="rejsy-po-jeziorze">
         <ContentWrapper>
             <Header>
                 Rejsy gondolą po jeziorze Czorsztyńskim
