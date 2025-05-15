@@ -14,7 +14,7 @@ const Offer = () => {
                     <Name>Domki "Zamkowe wzgórze"</Name>
                     <Description>Wynajem dwóch domków ulokowanych na brzegu Jeziora Czorsztyńskiego, tuż przy Zamku w Niedzicy.</Description>
                 </Tile>
-                <Tile as={Link} to="rowery" smooth={true} duration={1200} offset={-70} style={{ cursor: 'pointer' }}>
+                <Tile as={Link} to="rowery" smooth={true} duration={1200} offset={-50} style={{ cursor: 'pointer' }}>
                     <Name>Wypożyczalnia rowerów "Velo Czorsztyn"</Name>
                     <Description>Wypożyczalnia rowerów tradycyjnych, elektycznych oraz sprzętu rowerowego znajdująca się przy naszej przystani w Czorsztynie.</Description>
                 </Tile>
