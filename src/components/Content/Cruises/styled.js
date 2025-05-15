@@ -6,7 +6,7 @@ export const CruisesSection = styled.section`
   align-items: center;
 
   @media (min-width: 992px) {
-    flex-direction: column;
+    padding: 0 40px;
   }
 `;
 
@@ -29,24 +29,23 @@ export const Header = styled.h2`
 
     @media (min-width: 992px) {
       position: absolute;
-      bottom: 20%;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(0, 0, 0, 0.5);
+      top: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.4);
       color: white;
-      padding: 20px 40px;
-      border-radius: 8px;
+      padding: 40px;
       font-size: 48px;
       margin: 0;
       z-index: 2;
       display: block;
+      backdrop-filter: blur(3px);
     }
   }
 `;
 
 export const DescriptionSection = styled.div`
   order: 2;
-  padding: 0 40px;
       @media (max-width: 767px) {
     padding: 0 20px;
   }
@@ -67,12 +66,13 @@ export const ImageWrapper = styled.div`
   position: relative;
   width: 100%;
   order: 3;
-  padding: 0 10px;
 
   @media (min-width: 992px) {
     order: 1;
-      padding: 0 40px;
   }
+   @media (max-width: 768px) {
+   padding: 0 20px;
+   }
 `;
 
 export const CruiseImage = styled.img`
