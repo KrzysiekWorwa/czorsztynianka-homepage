@@ -10,7 +10,7 @@ const Offer = () => {
                     <Name>Rejsy po jeziorze Czorsztyńskim</Name>
                     <Description>Przyroda w zasięgu ręki! Wyjątkowe gondole przewiozą Cię po Jeziorze Czorsztyńskim</Description>
                 </Tile>
-                <Tile>
+                <Tile as={Link} to="domki" smooth={true} duration={600} offset={-70} style={{ cursor: 'pointer' }}>
                     <Name>Domki "Zamkowe wzgórze"</Name>
                     <Description>Wynajem dwóch domków ulokowanych na brzegu Jeziora Czorsztyńskiego, tuż przy Zamku w Niedzicy.</Description>
                 </Tile>

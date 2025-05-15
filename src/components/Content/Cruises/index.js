@@ -1,13 +1,18 @@
-import { Header, Description, CruisesSection, ContentWrapper } from "./styled";
-import { CruiseImage } from "./styled";
-import cruiseImage from "./cruise.jpg"
+import {
+    CruisesSection,
+    ImageWrapper,
+    CruiseImage,
+    Header,
+    DescriptionSection,
+    Description
+} from "./styled";
+
+import cruiseImage from "./cruise.jpg";
 
 const Cruises = () => (
     <CruisesSection id="rejsy-po-jeziorze">
-        <ContentWrapper>
-            <Header>
-                Rejsy gondolą po jeziorze Czorsztyńskim
-            </Header>
+        <Header className="mobile-header">Rejsy gondolą po jeziorze Czorsztyńskim</Header>
+        <DescriptionSection>
             <Description>
                 Oferujemy jedyną w swoim rodzaju i niepowtarzalną możliwość rejsu gondolami pomiędzy naszymi przystaniami na dwóch trasach. <br />
                 Trasa łącząca ruiny zamków w Czorsztynie i Niedzicy, kurs stały, odbywa się co 15 minut z Czorsztyna lub Niedzicy. To idealna okazja swobodnego zwiedzenia okolicy na obydwu brzegach Jeziora Czorsztyńskiego. <br />
@@ -16,8 +21,11 @@ const Cruises = () => (
                 Po rejsie zapraszamy do naszej przystani. Przystań Jędruś w Czorsztynie oferuje wiele możliwości spędzenia czasu nad urokliwym Jeziorem Czorsztyńskim. <br />
                 W Przystani znajduje się także mała gastronomia, gdzie można zakupić zimne i ciepłe napoje, przekąski, lody, słodycze. Do dyspozycji gości oddajemy ogródek z ławkami, parasolami chroniącymi przed słońcem i deszczem, wygodne pufy i leżaki oraz hamaki w zacienionym zagajniku.
             </Description>
-        </ContentWrapper>
-        <CruiseImage src={cruiseImage} alt="Zdjęcie rejsu" />
+        </DescriptionSection>
+        <ImageWrapper>
+            <CruiseImage src={cruiseImage} alt="Zdjęcie rejsu" />
+            <Header className="desktop-header">Rejsy gondolą po jeziorze Czorsztyńskim</Header>
+        </ImageWrapper>
     </CruisesSection>
 );
 
