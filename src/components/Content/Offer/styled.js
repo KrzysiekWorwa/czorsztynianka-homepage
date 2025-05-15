@@ -40,7 +40,7 @@ export const List = styled.ul`
 
 export const Tile = styled.li`
     padding: 56px;
-    border-radius: 4px;
+    border-radius: 10px;
     border: 2px solid rgb(240, 240, 240);
     margin: 0;
 
