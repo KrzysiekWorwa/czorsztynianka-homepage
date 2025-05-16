@@ -4,17 +4,22 @@ export const HousesSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px 40px;
 
-  @media (min-width: 992px) {
-    padding: 40px 40px;
+  @media (max-width: 767px) {
+    padding: 0px 20px;
   }
 `;
 
 export const HousesHeader = styled.h2`
-  font-size: 32px;
+  font-size: 48px;
   color: #252525;
   text-align: center;
   margin: 20px 0;
+
+        @media (max-width: 767px) {
+     font-size: 32px;
+  }
 
   &.mobile-header {
     display: block;
@@ -46,9 +51,6 @@ export const HousesHeader = styled.h2`
 
 export const HousesDescriptionSection = styled.div`
   order: 2;
-      @media (max-width: 767px) {
-    padding: 0 20px;
-  }
 `;
 
 export const HousesDescription = styled.p`
@@ -70,9 +72,6 @@ export const HousesImageWrapper = styled.div`
   @media (min-width: 992px) {
     order: 1;
   }
-   @media (max-width: 768px) {
-   padding: 0 20px;
-   }
 `;
 
 export const HousesImage = styled.img`

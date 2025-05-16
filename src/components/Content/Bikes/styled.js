@@ -4,18 +4,24 @@ export const BikesSection = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px 40px;
+  padding-bottom: 0px;
 
-  @media (min-width: 992px) {
-    padding: 40px 40px;
+  @media (max-width: 767px) {
+    padding: 40px 20px;
+    padding-bottom: 0px;
   }
 `;
 
 export const BikesHeader = styled.h2`
-  font-size: 32px;
+  font-size: 48px;
   color: #252525;
   text-align: center;
   margin: 20px 0;
 
+        @media (max-width: 767px) {
+     font-size: 32px;
+  }
   &.mobile-header {
     display: block;
 
@@ -46,9 +52,6 @@ export const BikesHeader = styled.h2`
 
 export const BikesDescriptionSection = styled.div`
   order: 2;
-      @media (max-width: 767px) {
-    padding: 0 20px;
-  }
 `;
 
 export const BikesDescription = styled.p`
@@ -70,9 +73,6 @@ export const BikesImageWrapper = styled.div`
   @media (min-width: 992px) {
     order: 1;
   }
-   @media (max-width: 768px) {
-   padding: 0 20px;
-   }
 `;
 
 export const BikesImage = styled.img`

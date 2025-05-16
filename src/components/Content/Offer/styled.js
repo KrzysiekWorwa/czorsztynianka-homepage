@@ -4,23 +4,22 @@ export const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 0px 40px;
+    padding-bottom: 40px;
     text-align: center;
-    padding-top: 0px;
-    padding-bottom: 69px;
 
         @media (max-width: 767px) {
-        padding-bottom: 10px;;
+        padding: 0px 20px;
 }
 `;
 
 
 export const Header = styled.h2`
-    font-size: 60px;
+    font-size: 48px;
     text-align: center;
     
     @media (max-width: 767px) {
-font-size: 30px;
+font-size: 32px;
 }
 `;
 
