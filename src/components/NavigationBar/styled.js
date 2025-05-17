@@ -7,12 +7,13 @@ export const Navbar = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 90px;
   background-color: white;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 export const NavWrapper = styled.div`
@@ -26,8 +27,10 @@ export const NavWrapper = styled.div`
 `;
 
 export const NavLogo = styled.img`
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    margin: 0;
 `;
 
 export const NavLinks = styled.div`

@@ -1,7 +1,7 @@
 import { HeroSection } from "./styled";
 
 const Hero = () => (
-    <HeroSection />
+    <HeroSection id="home"/>
 );
 
 export default Hero;

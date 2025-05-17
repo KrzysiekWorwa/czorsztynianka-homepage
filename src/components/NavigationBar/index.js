@@ -1,10 +1,13 @@
 import { Navbar, NavItem, NavLinks, NavLogo, NavWrapper } from "./styled";
 import Logo from "./logo_CMYK_kolor.png"
+import { Link } from "react-scroll";
 
 const NavigationBar = () => (
     <Navbar>
         <NavWrapper>
-            <NavLogo src={Logo} alt="Logo" />
+            <Link to="home" smooth={true} duration={600} offset={-60}>
+                <NavLogo src={Logo} alt="Logo" />
+            </Link>
             <NavLinks>
                 <NavItem to="usługi" smooth={true} duration={600} offset={-60}>
                     Oferta
