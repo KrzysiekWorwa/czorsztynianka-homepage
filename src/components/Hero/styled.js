@@ -7,7 +7,7 @@ export const HeroSection = styled.section`
   width: 100%;
   background-image: url(${BannerImage});
   background-size: cover;
-  background-position: center;
+ background-position: 50% 60%;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;

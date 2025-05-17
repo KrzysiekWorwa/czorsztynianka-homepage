@@ -5,17 +5,17 @@ import { Link } from "react-scroll";
 const NavigationBar = () => (
     <Navbar>
         <NavWrapper>
-            <Link to="home" smooth={true} duration={600} offset={-60}>
+            <Link to="home" smooth={true} duration={600} offset={-90}>
                 <NavLogo src={Logo} alt="Logo" />
             </Link>
             <NavLinks>
-                <NavItem to="usługi" smooth={true} duration={600} offset={-60}>
+                <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
                     Oferta
                 </NavItem>
-                <NavItem to="cennik-rejsu" smooth={true} duration={800} offset={-60}>
+                <NavItem to="cennik-rejsu" smooth={true} duration={800} offset={-90}>
                     Cennik rejsów
                 </NavItem>
-                <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-60}>
+                <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-90}>
                     Cennik wypożyczalni
                 </NavItem>
 
