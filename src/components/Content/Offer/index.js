@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 const Offer = () => {
     return (
-        <Wrapper>
+        <Wrapper id="usługi">
             <Header>Nasza oferta</Header>
             <List>
                 <Tile as={Link} to="rejsy-po-jeziorze" smooth={true} duration={600} offset={-70} style={{ cursor: 'pointer' }}>

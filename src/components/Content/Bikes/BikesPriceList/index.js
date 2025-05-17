@@ -7,7 +7,7 @@ import { ReactComponent as SeatIcon } from "./car-seat-with-seatbelt-svgrepo-com
 import { ReactComponent as HelmetIcon } from "./bicycle-helmet-svgrepo-com.svg";
 
 const BikesPriceList = () => (
-    <Wrapper>
+    <Wrapper id="cennik-wypozyczalni">
         <Header>Cennik wypożyczalni rowerów</Header>
         <StyledTable>
             <thead>

@@ -3,7 +3,7 @@ import BannerImage from "./Baner.jpg";
 
 export const HeroSection = styled.section`
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 60px);
   width: 100%;
   background-image: url(${BannerImage});
   background-size: cover;

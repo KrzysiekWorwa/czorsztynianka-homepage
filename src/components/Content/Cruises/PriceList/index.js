@@ -6,7 +6,7 @@ import { ReactComponent as RoundIcon } from "./RoundIcon.svg";
 import { ReactComponent as BikeIcon } from "./bicycle-54.svg";
 
 const PriceList = () => (
-    <Wrapper>
+    <Wrapper id="cennik-rejsu">
         <Header>Cennik rejsów</Header>
         <StyledTable>
             <thead>
