@@ -59,6 +59,7 @@ export const NavItem = styled(Link)`
   text-decoration: none;
   transition: color 0.2s ease;
   text-transform: uppercase;
+  text-align: center;
 
   &:hover {
     color: #666;
