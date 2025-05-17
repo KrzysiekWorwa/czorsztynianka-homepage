@@ -15,5 +15,9 @@ export const GlobalStyle = createGlobalStyle`
         font-family: "Poppins", sans-serif;
         color: #252525;
         overflow-x: hidden;
+
+              @media (max-width: 767px) {
+                padding-top: 60px;
+  }
     }
 `;

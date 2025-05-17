@@ -40,13 +40,13 @@ const NavigationBar = () => {
                 </NavLinks>
 
                 <MobileMenu $open={isOpen}>
-                    <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
+                    <NavItem to="usługi" smooth={true} duration={600} offset={-250}>
                         Oferta
                     </NavItem>
-                    <NavItem to="cennik-rejsu" smooth={true} duration={800} offset={-90}>
+                    <NavItem to="cennik-rejsu" smooth={true} duration={800} offset={-250}>
                         Cennik rejsów
                     </NavItem>
-                    <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-90}>
+                    <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-250}>
                         Cennik wypożyczalni
                     </NavItem>
                     <NavItem>

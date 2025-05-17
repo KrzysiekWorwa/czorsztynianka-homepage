@@ -14,6 +14,9 @@ export const Navbar = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+        @media (max-width: 767px) {
+        height: 60px;
+  }
 `;
 
 export const NavWrapper = styled.div`
@@ -31,6 +34,12 @@ export const NavLogo = styled.img`
     width: 80px;
     cursor: pointer;
     margin-top: 4px;
+
+    @media (max-width: 767px) {
+         height: 50px;
+         width: 50px;
+         margin-top: 4px;
+    }
 `;
 
 export const NavLinks = styled.div`
@@ -79,9 +88,9 @@ export const MobileMenu = styled.div`
     display: none;
 
     @media (max-width: 767px) {
-        display: ${({$open}) => ($open ? "flex" : "none")};
+        display: ${({ $open }) => ($open ? "flex" : "none")};
         position: absolute;
-        top: 90px;
+        top: 60px;
         left: 0;
         width: 100%;
         flex-direction: column;
