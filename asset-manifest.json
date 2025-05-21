@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/czorsztynianka-homepage/static/css/main.e6c13ad2.css",
-    "main.js": "/czorsztynianka-homepage/static/js/main.e71d15d4.js",
+    "main.js": "/czorsztynianka-homepage/static/js/main.d8d7ffb2.js",
     "static/js/453.b528dcf6.chunk.js": "/czorsztynianka-homepage/static/js/453.b528dcf6.chunk.js",
     "static/media/rowery.jpg": "/czorsztynianka-homepage/static/media/rowery.e33c010b8d47ef2ddee7.jpg",
     "static/media/domek.jpg": "/czorsztynianka-homepage/static/media/domek.49c8cc63a0b472c61d25.jpg",
     "static/media/cruise.jpg": "/czorsztynianka-homepage/static/media/cruise.eb6a11ff8e03695b8354.jpg",
     "static/media/Baner.jpg": "/czorsztynianka-homepage/static/media/Baner.5855ba6a2e3557122224.jpg",
     "static/media/logo_CMYK_kolor.png": "/czorsztynianka-homepage/static/media/logo_CMYK_kolor.66dc0e7e5fefca055cdd.png",
+    "static/media/logo_CMYK_biale.png": "/czorsztynianka-homepage/static/media/logo_CMYK_biale.5e022f784e7e231b0fe8.png",
     "static/media/bicycle-54.svg": "/czorsztynianka-homepage/static/media/bicycle-54.9e2a95417dc898821d8387493b87300d.svg",
     "static/media/instagramIcon.svg": "/czorsztynianka-homepage/static/media/instagramIcon.7bad0c3cde2835fa701a1538d5bc741b.svg",
     "static/media/bicycle-electric-svgrepo-com.svg": "/czorsztynianka-homepage/static/media/bicycle-electric-svgrepo-com.effe5cdcb7321624ede29330a9622255.svg",
@@ -19,12 +20,13 @@
     "static/media/RoundIcon.svg": "/czorsztynianka-homepage/static/media/RoundIcon.978d551e2642412a68343b961abbbd82.svg",
     "static/media/2sidesIcon.svg": "/czorsztynianka-homepage/static/media/2sidesIcon.f95d51d20adf15ebf99cc48a4caaabee.svg",
     "static/media/1sideIcon.svg": "/czorsztynianka-homepage/static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
+    "static/media/arrow.svg": "/czorsztynianka-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.e6c13ad2.css.map": "/czorsztynianka-homepage/static/css/main.e6c13ad2.css.map",
-    "main.e71d15d4.js.map": "/czorsztynianka-homepage/static/js/main.e71d15d4.js.map",
+    "main.d8d7ffb2.js.map": "/czorsztynianka-homepage/static/js/main.d8d7ffb2.js.map",
     "453.b528dcf6.chunk.js.map": "/czorsztynianka-homepage/static/js/453.b528dcf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e71d15d4.js"
+    "static/js/main.d8d7ffb2.js"
   ]
 }
