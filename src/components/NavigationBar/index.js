@@ -31,11 +31,11 @@ const NavigationBar = () => {
                     <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-90}>
                         Cennik wypożyczalni
                     </NavItem>
-                    <NavItem>
-                        Partnerzy
+                    <NavItem to="address" smooth={true} duration={1400} offset={-90}>
+                        Dojazd i kontakt
                     </NavItem>
                     <NavItem>
-                        Dojazd i kontakt
+                        Partnerzy
                     </NavItem>
                 </NavLinks>
 
@@ -49,11 +49,11 @@ const NavigationBar = () => {
                     <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-250}>
                         Cennik wypożyczalni
                     </NavItem>
-                    <NavItem>
-                        Partnerzy
+                    <NavItem to="address" smooth={true} duration={1400} offset={-90}>
+                        Dojazd i kontakt
                     </NavItem>
                     <NavItem>
-                        Dojazd i kontakt
+                        Partnerzy
                     </NavItem>
                 </MobileMenu>
             </NavWrapper>

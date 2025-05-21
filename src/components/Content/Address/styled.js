@@ -3,11 +3,12 @@ import { ReactComponent as FacebookIconLink } from "./SvgIcons/facebookIcon.svg"
 import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.svg";
 
 export const AddressSection = styled.section`
-  padding: 0 40px;
+  padding: 40px 40px;
+  padding-bottom: 40px;
 
   @media (max-width: 767px) {
      padding: 40px 20px;
-     padding-bottom: 0px;
+     padding-bottom: 10px;
   }
 `;
 
@@ -23,6 +24,7 @@ export const AddressHeader = styled.h2`
 
 export const AddressSubHeader = styled.h3`
     font-size: 24px;
+    margin-top: 0;
         @media (max-width: 767px) {
         font-size: 18px;
 }
@@ -35,7 +37,7 @@ export const AddressDescription = styled.p`
     margin: 0%;
 `;
 
-export const AdressInfo = styled.address`
+export const AddressInfo = styled.address`
     font-style: normal;
 `;
 
@@ -49,7 +51,7 @@ export const LinkWrapper = styled.div`
 
 export const AddressLink = styled.a`
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: none;
     transition: color 0.3s;
     color: #252525;
@@ -59,7 +61,7 @@ export const AddressLink = styled.a`
     }
 
     @media (max-width: 767px) {
-    font-size: 18px;
+    font-size: 17px;
 }
 `;
 
@@ -105,4 +107,39 @@ export const InstagramIcon = styled(InstagramIconLink)`
         &:hover {
         color: #93A981;
     }
+`;
+
+export const AddressContentWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap:0;
+  }
+`;
+
+export const MapContainer = styled.div`
+flex: 1;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; // 16:9 ratio
+  height: 0;
+  margin-top: 20px;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+  }
+
+  @media (max-width: 767px) {
+    height: 300px;
+  }
 `;
