@@ -27,6 +27,7 @@ export const TableHeader = styled.th`
 
 export const TableRow = styled.tr`
   border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   font-size: 1.5rem;
 
   @media (max-width: 768px) {
@@ -78,5 +79,14 @@ export const TableCell = styled.td`
         content: none;
       }
     }
+  }
+`;
+
+export const Info = styled.div`
+  font-size: 18px;
+  line-height: 1.5;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
   }
 `;
