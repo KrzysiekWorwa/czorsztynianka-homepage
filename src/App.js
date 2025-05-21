@@ -2,6 +2,7 @@ import Content from './components/Content';
 import { GlobalStyle } from './GlobalStyle';
 import Hero from './components/Hero';
 import NavigationBar from './components/NavigationBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationBar />
       <Hero />
       <Content />
+      <Footer />
     </>
   );
 }

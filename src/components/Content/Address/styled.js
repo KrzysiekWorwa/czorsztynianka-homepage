@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { ReactComponent as FacebookIconLink } from "./SvgIcons/facebookIcon.svg";
-import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.svg";
+import { ReactComponent as FacebookIconLink } from "../../SvgIcons/facebookIcon.svg";
+import { ReactComponent as InstagramIconLink } from "../../SvgIcons/instagramIcon.svg";
 
 export const AddressSection = styled.section`
   padding: 40px 40px;
@@ -8,7 +8,7 @@ export const AddressSection = styled.section`
 
   @media (max-width: 767px) {
      padding: 40px 20px;
-     padding-bottom: 10px;
+     padding-bottom: 20px;
   }
 `;
 

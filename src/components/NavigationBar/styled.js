@@ -30,8 +30,8 @@ export const NavWrapper = styled.div`
 `;
 
 export const NavLogo = styled.img`
-    height: 80px;
-    width: 80px;
+    height: auto;
+    width: 85px;
     cursor: pointer;
     margin-top: 4px;
 

@@ -49,7 +49,7 @@ const NavigationBar = () => {
                     <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-250}>
                         Cennik wypożyczalni
                     </NavItem>
-                    <NavItem to="address" smooth={true} duration={1400} offset={-90}>
+                    <NavItem to="address" smooth={true} duration={1400} offset={-250}>
                         Dojazd i kontakt
                     </NavItem>
                     <NavItem>
