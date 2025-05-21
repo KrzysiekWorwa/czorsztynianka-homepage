@@ -1,17 +1,14 @@
 import { FacebookIcon, FooterCopyright, FooterIcons, FooterLogo, FooterSection, FooterWrapper, HomeButton, InstagramIcon } from "./styled";
 import Logo from "./logo_CMYK_biale.png"
 import { ReactComponent as ArrowIcon } from "./arrow.svg";
-import { Link } from "react-scroll";
 
 const Footer = () => (
     <>
 
         <FooterSection>
-            <Link to="home" smooth={true} duration={2000} offset={-90}>
-                <HomeButton>
-                    <ArrowIcon />
-                </HomeButton>
-            </Link>
+            <HomeButton to="home" smooth={true} duration={2000} offset={-90}>
+                <ArrowIcon />
+            </HomeButton>
             <FooterWrapper>
                 <FooterLogo src={Logo} />
                 <FooterIcons>

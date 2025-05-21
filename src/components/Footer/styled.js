@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { ReactComponent as FacebookIconLink } from "../SvgIcons/facebookIcon.svg";
 import { ReactComponent as InstagramIconLink } from "../SvgIcons/instagramIcon.svg";
+import { Link } from "react-scroll";
 
 export const FooterSection = styled.footer`
     background: #93A981;
@@ -62,7 +63,7 @@ export const FooterCopyright = styled.div`
     font-size: 18px;
 `;
 
-export const HomeButton = styled.a`
+export const HomeButton = styled(Link)`
     background: #93A981;
     color: white;
     border: 1px solid transparent;
@@ -70,8 +71,8 @@ export const HomeButton = styled.a`
     margin: 0 auto;
     padding: 10px;
     position: relative;
-    top: -77px;
-
+    top: -78px;
+    cursor: pointer;
 
           svg {
     width: 40px;
