@@ -1,10 +1,12 @@
 import { Header, Wrapper } from "../../Offer/styled";
 import { StyledTable, TableHeader, TableCell, TableRow, Info } from "./styled";
-import { ReactComponent as OneSideIcon } from "./1sideIcon.svg";
-import { ReactComponent as TwoSideIcon } from "./2sidesIcon.svg";
-import { ReactComponent as RoundIcon } from "./RoundIcon.svg";
-import { ReactComponent as BikeIcon } from "./bicycle-54.svg";
-import { ReactComponent as TrailerIcon } from "./bicycle-trailer-svgrepo-com.svg";
+import { ReactComponent as OneSideIcon } from "./priceIcons/1sideIcon.svg";
+import { ReactComponent as TwoSideIcon } from "./priceIcons/2sidesIcon.svg";
+import { ReactComponent as RoundIcon } from "./priceIcons/RoundIcon.svg";
+import { ReactComponent as BikeIcon } from "./priceIcons/bicycle-54.svg";
+import { ReactComponent as TrailerIcon } from "./priceIcons/bicycle-trailer-svgrepo-com.svg";
+import Gallery from "../../../Gallery";
+import { cruiseImages } from "../images/cruiseImages";
 
 const PriceList = () => (
     <Wrapper id="cennik-rejsu">
@@ -56,6 +58,7 @@ const PriceList = () => (
                 W przypadku grup zorganizowanych możliwość negocjacji ceny. <br />
                 Wystawiamy faktury VAT.</p>
         </Info>
+        <Gallery title="Galeria zdjęć rejsów" images={cruiseImages} />
     </Wrapper>
 );
 

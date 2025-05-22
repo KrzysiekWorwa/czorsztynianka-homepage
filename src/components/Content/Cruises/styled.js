@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cruiseImage from "./cruise.jpg";
+import cruiseImage from "./images/cruise.jpg";
 
 export const CruisesSection = styled.section`
   display: flex;
