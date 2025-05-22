@@ -7,7 +7,7 @@ import {
     Description
 } from "./styled";
 
-import cruiseImage from "./images/cruise.jpg";
+import cruiseImage from "./images/cruise.webp";
 
 const Cruises = () => (
     <CruisesSection id="rejsy-po-jeziorze">

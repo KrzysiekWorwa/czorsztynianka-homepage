@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import houseImage from "./images/domek.jpg"
+import houseImage from "./images/domek.webp"
 
 export const HousesSection = styled.section`
   display: flex;

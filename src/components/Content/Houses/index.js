@@ -1,5 +1,5 @@
 import { HousesSection, HousesHeader, HousesDescriptionSection, HousesDescription, HousesImageWrapper, HousesImage, HousesLink } from "./styled";
-import houseImage from "./images/domek.jpg"
+import houseImage from "./images/domek.webp"
 import Gallery from "../../Gallery";
 import { housesImages } from "./images/housesImages";
 

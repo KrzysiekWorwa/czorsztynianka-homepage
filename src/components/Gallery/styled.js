@@ -31,7 +31,7 @@ export const GalleryHeader = styled.h2`
   font-size: 48px;
   color: #252525;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px 20px;
 
         @media (max-width: 767px) {
      font-size: 32px;
