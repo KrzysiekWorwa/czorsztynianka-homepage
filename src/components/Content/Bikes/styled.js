@@ -76,6 +76,7 @@ export const BikesImageWrapper = styled.div`
     background-image: url(${bikesImage});
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 500px;
     width: 100vw;
   }
