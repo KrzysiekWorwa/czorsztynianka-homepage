@@ -1,10 +1,10 @@
 import { Header, Wrapper } from "../../Offer/styled";
 import { StyledTable, TableHeader, TableCell, TableRow } from "./styled";
-import { ReactComponent as BikeIcon } from "./bicycle-54.svg";
-import { ReactComponent as ElectricBikeIcon } from "./bicycle-electric-svgrepo-com.svg";
-import { ReactComponent as TrailerIcon } from "./bicycle-trailer-svgrepo-com.svg";
-import { ReactComponent as SeatIcon } from "./car-seat-with-seatbelt-svgrepo-com.svg";
-import { ReactComponent as HelmetIcon } from "./bicycle-helmet-svgrepo-com.svg";
+import { ReactComponent as BikeIcon } from "./bikesIcons/bicycle-54.svg";
+import { ReactComponent as ElectricBikeIcon } from "./bikesIcons/bicycle-electric-svgrepo-com.svg";
+import { ReactComponent as TrailerIcon } from "./bikesIcons/bicycle-trailer-svgrepo-com.svg";
+import { ReactComponent as SeatIcon } from "./bikesIcons/car-seat-with-seatbelt-svgrepo-com.svg";
+import { ReactComponent as HelmetIcon } from "./bikesIcons/bicycle-helmet-svgrepo-com.svg";
 
 const BikesPriceList = () => (
     <Wrapper id="cennik-wypozyczalni">

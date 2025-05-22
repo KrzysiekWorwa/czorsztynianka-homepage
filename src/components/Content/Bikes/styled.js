@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bikesImage from "./rowery.jpg";
+import bikesImage from "./images/rowery.jpg";
 
 export const BikesSection = styled.section`
   display: flex;
