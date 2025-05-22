@@ -34,7 +34,7 @@ const NavigationBar = () => {
                     <NavItem to="address" smooth={true} duration={1400} offset={-90}>
                         Dojazd i kontakt
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="partners" smooth={true} duration={1600} offset={-90}>
                         Partnerzy
                     </NavItem>
                 </NavLinks>
@@ -52,7 +52,7 @@ const NavigationBar = () => {
                     <NavItem to="address" smooth={true} duration={1400} offset={-250}>
                         Dojazd i kontakt
                     </NavItem>
-                    <NavItem>
+                    <NavItem to="partners" smooth={true} duration={1600} offset={-250}>
                         Partnerzy
                     </NavItem>
                 </MobileMenu>

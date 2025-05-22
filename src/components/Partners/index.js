@@ -3,10 +3,11 @@ import { Autoplay } from "swiper/modules";
 import { partners } from "./partners";
 import "swiper/css";
 import "swiper/css/autoplay";
-import { PartnersWrapper, SlideContent, Logo } from "./styled";
+import { PartnersWrapper, SlideContent, Logo, Header } from "./styled";
 
 const Partners = () => (
-    <PartnersWrapper>
+    <PartnersWrapper id="partners">
+        <Header>Nasi Partnerzy</Header>
         <Swiper
             modules={[Autoplay]}
             slidesPerView={3}

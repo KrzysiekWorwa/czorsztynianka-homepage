@@ -8,14 +8,17 @@ export const Navbar = styled.nav`
   left: 0;
   width: 100%;
   height: 90px;
-  background-color: rgba(36, 39, 45, 1);
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px); 
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
+
         @media (max-width: 767px) {
         height: 60px;
+        background-color: rgba(40, 39, 44, 1);
+        backdrop-filter: none;
   }
 `;
 
@@ -62,7 +65,7 @@ export const NavItem = styled(Link)`
   text-align: center;
 
   &:hover {
-    color:rgb(190, 190, 190);
+    color:rgb(221, 221, 221);
   }
 `;
 
@@ -96,8 +99,7 @@ export const MobileMenu = styled.div`
         width: 100%;
         flex-direction: column;
         align-items:center;
-        background-color: rgba(36, 39, 45, 1);
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        background-color: rgba(40, 39, 44, 1);
         padding: 20px 0;
         gap: 15px;
         z-index: 999;
