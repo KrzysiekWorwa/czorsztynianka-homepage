@@ -77,8 +77,7 @@ export const ImageWrapper = styled.div`
     order: 1;
     background-image: url(${cruiseImage});
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: 50% 50%;
     height: 500px;
     width: 100vw;
   }

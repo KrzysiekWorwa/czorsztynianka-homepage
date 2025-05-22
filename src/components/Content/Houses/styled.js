@@ -75,8 +75,7 @@ export const HousesImageWrapper = styled.div`
     order: 1;
     background-image: url(${houseImage});
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-position: 50% 55%;
     height: 500px;
     width: 100vw;
   }
