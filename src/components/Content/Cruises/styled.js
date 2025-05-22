@@ -90,7 +90,7 @@ export const CruiseImage = styled.img`
   object-fit: cover;
   max-height: 750px;
 
-    @media (min-width: 767px) {
+    @media (min-width: 992px) {
     display: none;
   }
 `;
