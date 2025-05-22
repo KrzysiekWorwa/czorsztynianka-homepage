@@ -22,6 +22,9 @@ const NavigationBar = () => {
                 </Burger>
 
                 <NavLinks>
+                     <NavItem to="home" smooth={true} duration={600} offset={-90}>
+                        Home
+                    </NavItem>
                     <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
                         Oferta
                     </NavItem>
