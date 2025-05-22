@@ -8,7 +8,7 @@ export const Navbar = styled.nav`
   left: 0;
   width: 100%;
   height: 90px;
-  background-color: white;
+  background-color: rgba(36, 39, 45, 1);
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -55,14 +55,14 @@ export const NavLinks = styled.div`
 export const NavItem = styled(Link)`
   font-weight: 500;
   cursor: pointer;
-  color: #252525;
+  color: white;
   text-decoration: none;
   transition: color 0.2s ease;
   text-transform: uppercase;
   text-align: center;
 
   &:hover {
-    color: #666;
+    color:rgb(190, 190, 190);
   }
 `;
 
@@ -75,7 +75,7 @@ export const Burger = styled.div`
     div {
         width: 25px;
         height: 3px;
-        background: #252525;
+        background: white;
         border-radius: 2px;
     }
 
@@ -96,7 +96,7 @@ export const MobileMenu = styled.div`
         width: 100%;
         flex-direction: column;
         align-items:center;
-        background-color: white;
+        background-color: rgba(36, 39, 45, 1);
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         padding: 20px 0;
         gap: 15px;
