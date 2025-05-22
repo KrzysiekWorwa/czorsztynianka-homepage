@@ -3,6 +3,7 @@ import { GlobalStyle } from './GlobalStyle';
 import Hero from './components/Hero';
 import NavigationBar from './components/NavigationBar';
 import Footer from './components/Footer';
+import Partners from './components/Partners';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavigationBar />
       <Hero />
       <Content />
+      <Partners />
       <Footer />
     </>
   );
