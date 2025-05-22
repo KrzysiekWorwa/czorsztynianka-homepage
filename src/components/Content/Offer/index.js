@@ -12,11 +12,11 @@ const Offer = () => {
                 </Tile>
                 <Tile as={Link} to="domki" smooth={true} duration={1000} offset={-90} style={{ cursor: 'pointer' }}>
                     <Name>Domki "Zamkowe wzgórze"</Name>
-                    <Description>Wynajem dwóch domków ulokowanych na brzegu Jeziora Czorsztyńskiego, tuż przy Zamku w Niedzicy.</Description>
+                    <Description>Wynajem dwóch domków ulokowanych na brzegu Jeziora Czorsztyńskiego, tuż przy Zamku w Niedzicy</Description>
                 </Tile>
                 <Tile as={Link} to="rowery" smooth={true} duration={1200} offset={-90} style={{ cursor: 'pointer' }}>
                     <Name>Wypożyczalnia rowerów "Velo Czorsztyn"</Name>
-                    <Description>Wypożyczalnia rowerów tradycyjnych, elektycznych oraz sprzętu rowerowego znajdująca się przy naszej przystani w Czorsztynie.</Description>
+                    <Description>Wypożyczalnia rowerów tradycyjnych, elektycznych oraz sprzętu rowerowego znajdująca się przy naszej przystani w Czorsztynie</Description>
                 </Tile>
             </List>
         </Wrapper>

@@ -52,8 +52,8 @@ const PriceList = () => (
             </tbody>
         </StyledTable>
         <Info>
-            <p><strong>Dla grup zorganizowanych (szkolnych, firmowych, wycieczek)</strong> możliwość rezerwacji rejsu<br />
-                W przypadku grup zorganizowanych możliwość negocjacji ceny <br />
+            <p><strong>Dla grup zorganizowanych (szkolnych, firmowych, wycieczek)</strong> możliwość rezerwacji rejsu.<br />
+                W przypadku grup zorganizowanych możliwość negocjacji ceny. <br />
                 Wystawiamy faktury VAT.</p>
         </Info>
     </Wrapper>
