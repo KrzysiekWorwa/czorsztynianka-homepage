@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import houseImage from "./domek.jpg"
 
 export const HousesSection = styled.section`
   display: flex;
@@ -69,8 +70,15 @@ export const HousesImageWrapper = styled.div`
   width: 100%;
   order: 3;
 
+
   @media (min-width: 992px) {
     order: 1;
+    background-image: url(${houseImage});
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100vw;
   }
 `;
 
@@ -79,7 +87,11 @@ export const HousesImage = styled.img`
   height: auto;
   display: block;
   object-fit: cover;
-max-height: 750px;
+  max-height: 750px;
+
+    @media (min-width: 767px) {
+    display: none;
+  }
 `;
 
 export const HousesLink = styled.a`

@@ -1,7 +1,6 @@
 import {
 BikesSection, BikesDescription, BikesDescriptionSection, BikesHeader, BikesImage, BikesImageWrapper
 } from "./styled";
-
 import bikesImage from "./rowery.jpg";
 
 const Bikes = () => (

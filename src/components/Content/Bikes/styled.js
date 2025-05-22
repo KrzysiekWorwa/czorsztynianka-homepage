@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import bikesImage from "./rowery.jpg";
 
 export const BikesSection = styled.section`
   display: flex;
@@ -72,6 +73,12 @@ export const BikesImageWrapper = styled.div`
 
   @media (min-width: 992px) {
     order: 1;
+    background-image: url(${bikesImage});
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100vw;
   }
 `;
 
@@ -81,4 +88,8 @@ export const BikesImage = styled.img`
   display: block;
   object-fit: cover;
   max-height: 750px;
+
+    @media (min-width: 767px) {
+    display: none;
+  }
 `;
