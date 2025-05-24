@@ -12,6 +12,10 @@ export const GalleryGrid = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 16px;
     padding: 20px;
+
+      @media (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 
 export const GalleryImage = styled.img`
