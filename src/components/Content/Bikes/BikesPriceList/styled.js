@@ -81,3 +81,12 @@ export const TableCell = styled.td`
     }
   }
 `;
+
+export const Info = styled.div`
+  font-size: 18px;
+  line-height: 1.5;
+
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
+`;

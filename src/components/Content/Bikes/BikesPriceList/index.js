@@ -1,5 +1,5 @@
 import { Header, Wrapper } from "../../Offer/styled";
-import { StyledTable, TableHeader, TableCell, TableRow } from "./styled";
+import { StyledTable, TableHeader, TableCell, TableRow, Info } from "./styled";
 import { ReactComponent as BikeIcon } from "./bikesIcons/bicycle-54.svg";
 import { ReactComponent as ElectricBikeIcon } from "./bikesIcons/bicycle-electric-svgrepo-com.svg";
 import { ReactComponent as TrailerIcon } from "./bikesIcons/bicycle-trailer-svgrepo-com.svg";
@@ -51,6 +51,7 @@ const BikesPriceList = () => (
                 </TableRow>
             </tbody>
         </StyledTable>
+        <Info>* cały dzień jest rozumiany w godzinach otwarcia wypożyczalni</Info>
     </Wrapper>
 );
 

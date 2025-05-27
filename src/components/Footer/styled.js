@@ -7,7 +7,7 @@ export const FooterSection = styled.footer`
     background: #93A981;
     padding: 40px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
 
 `;
 

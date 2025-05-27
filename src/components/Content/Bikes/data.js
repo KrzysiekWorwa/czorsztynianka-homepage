@@ -1,4 +1,4 @@
-import bikesImage from "./images/rowery.jpg"
+import bikesImage from "./images/rowery.webp"
 
 export const bikesData = {
     id: "rowery",

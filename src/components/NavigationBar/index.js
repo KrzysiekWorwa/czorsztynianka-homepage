@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, FacebookIcon, InstagramIcon, NavIcons } from "./styled";
 import Logo from "./logo_CMYK_kolor.png"
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 const NavigationBar = () => {
 
@@ -22,9 +23,9 @@ const NavigationBar = () => {
                 </Burger>
 
                 <NavLinks>
-                    <NavItem to="home" smooth={true} duration={600} offset={-90}>
+                    <RouterLink to="home" smooth={true} duration={600} offset={-90}>
                         Home
-                    </NavItem>
+                    </RouterLink>
                     <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
                         Oferta
                     </NavItem>
@@ -40,6 +41,9 @@ const NavigationBar = () => {
                     <NavItem to="partners" smooth={true} duration={1600} offset={-90}>
                         Partnerzy
                     </NavItem>
+                    <RouterLink to="/Wypożyczalnia-rowerów">
+                        Wypożyczalnia rowerów
+                    </RouterLink>
                 </NavLinks>
                 <NavIcons>
                     <a href="https://www.facebook.com/przystanczorsztynianka" target="_blank" title="Facebook" rel="noreferrer">
