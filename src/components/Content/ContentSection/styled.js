@@ -74,7 +74,7 @@ export const ImageWrapper = styled.div`
 
   @media (min-width: 992px) {
     order: 1;
-    background-image: url(${(props) => props.imageSrc});
+    background-image: url(${(props) => props.$imageSrc});
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

@@ -29,7 +29,7 @@ const ContentSection = ({
                 )}
             </Description>
         </DescriptionSection>
-        <ImageWrapper imageSrc={imageSrc}>
+        <ImageWrapper $imageSrc={imageSrc}>
             <Image src={imageSrc} alt={imageAlt} />
             <Header className="desktop-header">{title}</Header>
         </ImageWrapper>
