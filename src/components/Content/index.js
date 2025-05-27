@@ -1,20 +1,26 @@
 import Address from "./Address";
-import Bikes from "./Bikes";
 import BikesPriceList from "./Bikes/BikesPriceList";
-import Cruises from "./Cruises";
 import PriceList from "./Cruises/PriceList";
-import Houses from "./Houses";
 import Offer from "./Offer";
 import { Container } from "./styled";
+import { cruisesData } from "./Cruises/data";
+import { bikesData } from "./Bikes/data";
+import { housesData } from "./Houses/data";
+import ContentSection from "./ContentSection";
+import Gallery from "../Gallery";
+import { cruiseImages } from "./Cruises/images/cruiseImages";
+import { housesImages } from "./Houses/images/housesImages";
 
 const Content = () => {
     return (
         <Container>
             <Offer />
-            <Cruises />
+            <ContentSection {...cruisesData} />
             <PriceList />
-            <Houses />
-            <Bikes />
+            <Gallery title="Galeria zdjęć rejsów" images={cruiseImages} />
+            <ContentSection {...housesData} />
+            <Gallery title="Galeria zdjęć domków" images={housesImages} />
+            <ContentSection {...bikesData} />
             <BikesPriceList />
             <Address />
         </ Container>

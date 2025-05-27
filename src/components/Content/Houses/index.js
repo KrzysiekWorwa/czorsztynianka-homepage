@@ -1,7 +1,4 @@
 import { HousesSection, HousesHeader, HousesDescriptionSection, HousesDescription, HousesImageWrapper, HousesImage, HousesLink } from "./styled";
-import houseImage from "./images/domek.webp"
-import Gallery from "../../Gallery";
-import { housesImages } from "./images/housesImages";
 
 const Houses = () => (
     <HousesSection id="domki">
@@ -20,7 +17,6 @@ const Houses = () => (
             <HousesImage src={houseImage} alt="Zdjęcie domku" />
             <HousesHeader className="desktop-header">Domki "Zamkowe wzgórze"</HousesHeader>
         </HousesImageWrapper>
-        <Gallery title="Galeria zdjęć domków" images={housesImages} />
     </HousesSection>
 );
 
