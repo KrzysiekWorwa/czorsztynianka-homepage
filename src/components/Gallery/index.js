@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { GalleryGrid, GalleryHeader, GalleryImage, GalleryWrapper } from "./styled";
-import "yet-another-react-lightbox/styles.css";
 import Lightbox from "yet-another-react-lightbox";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/styles.css";
 
 const Gallery = ({ title, images }) => {
 
@@ -27,6 +28,12 @@ const Gallery = ({ title, images }) => {
                 close={() => setIndex(-1)}
                 index={index}
                 slides={images.map((src) => ({ src }))}
+                plugins={[Zoom]}
+                zoom={{
+                    maxZoomPixelRatio: 1.5,
+                    zoomInMultiplier: 1,
+                }}
+                onBackdropClick={() => setIndex(-1)}
             />
         </GalleryWrapper>
     );

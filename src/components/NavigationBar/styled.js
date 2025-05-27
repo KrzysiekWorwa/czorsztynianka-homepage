@@ -17,7 +17,7 @@ export const Navbar = styled.nav`
 
         @media (max-width: 767px) {
         height: 60px;
-        background-color: rgba(40, 39, 44, 1);
+        background-color: white;
         backdrop-filter: none;
   }
 `;
@@ -64,8 +64,16 @@ export const NavItem = styled(Link)`
   text-transform: uppercase;
   text-align: center;
 
+     @media (max-width: 767px) {
+        color: black;
+  }
+
   &:hover {
     color:rgb(221, 221, 221);
+
+         @media (max-width: 767px) {
+        color:rgb(107, 107, 107);
+  }
   }
 `;
 
@@ -78,7 +86,7 @@ export const Burger = styled.div`
     div {
         width: 25px;
         height: 3px;
-        background: white;
+        background: black;
         border-radius: 2px;
     }
 
@@ -99,7 +107,7 @@ export const MobileMenu = styled.div`
         width: 100%;
         flex-direction: column;
         align-items:center;
-        background-color: rgba(40, 39, 44, 1);
+        background-color: white;
         padding: 20px 0;
         gap: 15px;
         z-index: 999;
