@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
+import { ReactComponent as FacebookIconLink } from "../SvgIcons/facebookIcon.svg";
+import { ReactComponent as InstagramIconLink } from "../SvgIcons/instagramIcon.svg";
 
 
 export const Navbar = styled.nav`
@@ -111,6 +113,37 @@ export const MobileMenu = styled.div`
         padding: 20px 0;
         gap: 15px;
         z-index: 999;
+    }
+`;
+
+export const NavIcons = styled.div`
+    display: flex;
+    gap: 30px;
+
+          @media (max-width: 767px) {
+        display: none;
+  }
+`;
+
+export const FacebookIcon = styled(FacebookIconLink)`
+    width: 48px;
+    height: 48px;
+    color: white;
+    transition: color 0.3s;
+
+        &:hover {
+        color:rgb(221, 221, 221);
+    }
+`;
+
+export const InstagramIcon = styled(InstagramIconLink)`
+    width: 48px;
+    height: 48px;
+    color: white;
+    transition: color 0.3s;
+
+        &:hover {
+        color:rgb(221, 221, 221);
     }
 `;
 

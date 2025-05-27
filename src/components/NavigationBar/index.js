@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper } from "./styled";
+import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, FacebookIcon, InstagramIcon, NavIcons } from "./styled";
 import Logo from "./logo_CMYK_kolor.png"
 import { Link } from "react-scroll";
 
@@ -22,7 +22,7 @@ const NavigationBar = () => {
                 </Burger>
 
                 <NavLinks>
-                     <NavItem to="home" smooth={true} duration={600} offset={-90}>
+                    <NavItem to="home" smooth={true} duration={600} offset={-90}>
                         Home
                     </NavItem>
                     <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
@@ -41,6 +41,14 @@ const NavigationBar = () => {
                         Partnerzy
                     </NavItem>
                 </NavLinks>
+                <NavIcons>
+                    <a href="https://www.facebook.com/przystanczorsztynianka" target="_blank" title="Facebook" rel="noreferrer">
+                        <FacebookIcon />
+                    </a>
+                    <a href="https://www.instagram.com/czorsztynianka/" target="_blank" title="Instagram" rel="noreferrer">
+                        <InstagramIcon />
+                    </a>
+                </NavIcons>
 
                 <MobileMenu $open={isOpen}>
                     <NavItem to="usługi" smooth={true} duration={600} offset={-250}>
