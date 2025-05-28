@@ -72,6 +72,6 @@ letter-spacing: 5%;
 
 @media (max-width: 992px) {
         font-size: 17px;
-        text-align: justify;
+        text-align: left;
     }
 `;

@@ -57,7 +57,7 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-50}>
                         Home
                     </NavItem>
-                    <NavItem to="usługi" smooth={true} duration={600} offset={-270}>
+                    <NavItem to="usługi" smooth={true} duration={600} offset={-310}>
                         Oferta
                     </NavItem>
                     <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-270}>
