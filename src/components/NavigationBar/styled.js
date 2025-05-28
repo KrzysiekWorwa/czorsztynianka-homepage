@@ -17,7 +17,7 @@ export const Navbar = styled.nav`
   align-items: center;
   justify-content: center;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1050px) {
         height: 60px;
         background-color: white;
         backdrop-filter: none;
@@ -32,6 +32,7 @@ export const NavWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 `;
 
 export const NavLogo = styled.img`
@@ -40,7 +41,7 @@ export const NavLogo = styled.img`
     cursor: pointer;
     margin-top: 4px;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1050px) {
          height: 50px;
          width: 50px;
          margin-top: 4px;
@@ -51,8 +52,9 @@ export const NavLinks = styled.div`
   display: flex;
   gap: 30px;
   margin-left: 20px;
+  align-items: center;
 
-   @media (max-width: 767px) {
+   @media (max-width: 1050px) {
         display: none;
   }
 `;
@@ -66,14 +68,14 @@ export const NavItem = styled(Link)`
   text-transform: uppercase;
   text-align: center;
 
-     @media (max-width: 767px) {
+     @media (max-width: 1050px) {
         color: black;
   }
 
   &:hover {
     color:rgb(221, 221, 221);
 
-         @media (max-width: 767px) {
+         @media (max-width: 1050px) {
         color:rgb(107, 107, 107);
   }
   }
@@ -93,7 +95,7 @@ export const Burger = styled.div`
     }
 
 
-      @media (max-width: 767px) {
+      @media (max-width: 1050px) {
         display: flex;
   }
 `;
@@ -101,7 +103,7 @@ export const Burger = styled.div`
 export const MobileMenu = styled.div`
     display: none;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1050px) {
         display: ${({ $open }) => ($open ? "flex" : "none")};
         position: absolute;
         top: 60px;
@@ -118,9 +120,9 @@ export const MobileMenu = styled.div`
 
 export const NavIcons = styled.div`
     display: flex;
-    gap: 30px;
+    gap: 20px;
 
-          @media (max-width: 767px) {
+          @media (max-width: 1050px) {
         display: none;
   }
 `;

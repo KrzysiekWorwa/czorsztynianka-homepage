@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, FacebookIcon, InstagramIcon, NavIcons } from "./styled";
 import Logo from "./logo_CMYK_kolor.png"
 import { Link } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
 
 const NavigationBar = () => {
 
@@ -29,20 +28,20 @@ const NavigationBar = () => {
                     <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
                         Oferta
                     </NavItem>
-                    <NavItem to="cennik-rejsu" smooth={true} duration={800} offset={-90}>
-                        Cennik rejsów
+                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-90}>
+                        Rejsy gondolami
                     </NavItem>
-                    <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-90}>
-                        Cennik wypożyczalni
+                    <NavItem to="domki" smooth={true} duration={1000} offset={-90}>
+                        Noclegi
+                    </NavItem>
+                    <NavItem to="rowery" smooth={true} duration={1200} offset={-90}>
+                        Wypożyczalnia rowerów
                     </NavItem>
                     <NavItem to="address" smooth={true} duration={1400} offset={-90}>
                         Dojazd i kontakt
                     </NavItem>
                     <NavItem to="partners" smooth={true} duration={1600} offset={-90}>
                         Partnerzy
-                    </NavItem>
-                    <NavItem to="/Wypożyczalnia-rowerów">
-                        Wypożyczalnia rowerów
                     </NavItem>
                 </NavLinks>
                 <NavIcons>
@@ -55,19 +54,25 @@ const NavigationBar = () => {
                 </NavIcons>
 
                 <MobileMenu $open={isOpen}>
-                    <NavItem to="usługi" smooth={true} duration={600} offset={-250}>
+                    <NavItem to="home" smooth={true} duration={600} offset={-50}>
+                        Home
+                    </NavItem>
+                    <NavItem to="usługi" smooth={true} duration={600} offset={-270}>
                         Oferta
                     </NavItem>
-                    <NavItem to="cennik-rejsu" smooth={true} duration={800} offset={-250}>
-                        Cennik rejsów
+                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-270}>
+                        Rejsy gondolami
                     </NavItem>
-                    <NavItem to="cennik-wypozyczalni" smooth={true} duration={1200} offset={-250}>
-                        Cennik wypożyczalni
+                    <NavItem to="domki" smooth={true} duration={1000} offset={-270}>
+                        Noclegi
                     </NavItem>
-                    <NavItem to="address" smooth={true} duration={1400} offset={-250}>
+                    <NavItem to="rowery" smooth={true} duration={1200} offset={-270}>
+                        Wypożyczalnia rowerów
+                    </NavItem>
+                    <NavItem to="address" smooth={true} duration={1400} offset={-320}>
                         Dojazd i kontakt
                     </NavItem>
-                    <NavItem to="partners" smooth={true} duration={1600} offset={-250}>
+                    <NavItem to="partners" smooth={true} duration={1600} offset={-350}>
                         Partnerzy
                     </NavItem>
                 </MobileMenu>
