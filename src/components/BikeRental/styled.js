@@ -12,27 +12,22 @@ export const Header = styled.h2`
   text-align: center;
   margin: 20px 0;
 
-        @media (max-width: 767px) {
+        @media (max-width: 992px) {
      font-size: 32px;
   }
   `;
 
-export const Image = styled.img`
-    width: 100%;
-    max-height: 600px;
-    object-fit: cover;
-`;
-
 export const BikesSection = styled.div`
-display: grid;
-grid-template-columns: auto 1fr;
-grid-gap: 72px;
-align-items: center;
-margin: 40px 0;
-background-color: white;
-border: 2px solid rgb(240, 240, 240);
-border-radius: 8px;
-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 72px;
+  align-items: center;
+  margin: 40px 0;
+  background-color: white;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 20px;
 
     &:hover {
         border-color: rgba(3, 102, 214, 0.2);
@@ -48,8 +43,10 @@ box-shadow: 0 0 20px rgba(0,0,0,0.1);
 
 export const BikeImage = styled.img`
     width: 100%;
-    height: auto;
-    max-width: 600px;
+    max-width: 500px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
     
       @media (max-width: 992px) {
         justify-self: center;
@@ -58,12 +55,12 @@ export const BikeImage = styled.img`
 
 export const BikeContent = styled.div``;
 
-export const Title = styled.h1`
+export const Title = styled.h2`
 font-size: 30px;
 font-weight: 900;
 margin: 0;
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
 font-size: 22px;
 }
 `;
@@ -73,7 +70,8 @@ font-size: 20px;
 font-weight: 400;
 letter-spacing: 5%;
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
         font-size: 17px;
+        text-align: justify;
     }
 `;
