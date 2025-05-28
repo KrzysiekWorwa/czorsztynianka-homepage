@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/czorsztynianka-homepage/static/css/main.7a7431fa.css",
-    "main.js": "/czorsztynianka-homepage/static/js/main.9c863656.js",
+    "main.js": "/czorsztynianka-homepage/static/js/main.90324fcf.js",
     "static/js/453.4f50ac07.chunk.js": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js",
-    "static/media/rowery.jpg": "/czorsztynianka-homepage/static/media/rowery.e33c010b8d47ef2ddee7.jpg",
     "static/media/logo-ekomuzeum.jpeg": "/czorsztynianka-homepage/static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
     "static/media/Baner.jpg": "/czorsztynianka-homepage/static/media/Baner.5855ba6a2e3557122224.jpg",
+    "static/media/rowery.webp": "/czorsztynianka-homepage/static/media/rowery.0e4a168826aa5c38c963.webp",
     "static/media/ipa-nowy-targ.png": "/czorsztynianka-homepage/static/media/ipa-nowy-targ.b933ff022e7e2668a78e.png",
     "static/media/DSC7702.webp": "/czorsztynianka-homepage/static/media/DSC7702.75240a9dc1acd1a407e0.webp",
     "static/media/DSC7685.webp": "/czorsztynianka-homepage/static/media/DSC7685.70cc5484eb51c742e6b9.webp",
@@ -20,7 +20,12 @@
     "static/media/DSC7692.webp": "/czorsztynianka-homepage/static/media/DSC7692.50fa9cb3b15a57aacef7.webp",
     "static/media/20240922_093124.webp": "/czorsztynianka-homepage/static/media/20240922_093124.67ee55e254cf8a1c4871.webp",
     "static/media/cruise.webp": "/czorsztynianka-homepage/static/media/cruise.0e32e58879c6bad81440.webp",
+    "static/media/rower-cube-533121-reaction-hybrid-performance-500.webp": "/czorsztynianka-homepage/static/media/rower-cube-533121-reaction-hybrid-performance-500.a3f436536114383cd044.webp",
     "static/media/20240518_092429.webp": "/czorsztynianka-homepage/static/media/20240518_092429.3cfb6d5a57e1c8f3364a.webp",
+    "static/media/hero-skl-focarini-petrol.webp": "/czorsztynianka-homepage/static/media/hero-skl-focarini-petrol.dc578e829f9985aee8b9.webp",
+    "static/media/rower-elektryczny-cube-reaction-hybrid-pro-500-2256345-1080x636.webp": "/czorsztynianka-homepage/static/media/rower-elektryczny-cube-reaction-hybrid-pro-500-2256345-1080x636.da0dc22caa0d8499217a.webp",
+    "static/media/invader-707-skl-focarini-lime.webp": "/czorsztynianka-homepage/static/media/invader-707-skl-focarini-lime.9ed1d6b2dcfa3574f08b.webp",
+    "static/media/raptor-nodisc-skl-focarini-black.webp": "/czorsztynianka-homepage/static/media/raptor-nodisc-skl-focarini-black.6bb9bdcad19a76d5d079.webp",
     "static/media/logo_CMYK_kolor.png": "/czorsztynianka-homepage/static/media/logo_CMYK_kolor.66dc0e7e5fefca055cdd.png",
     "static/media/DSC_8882.webp": "/czorsztynianka-homepage/static/media/DSC_8882.7e5f166572b882f82e5d.webp",
     "static/media/logo_CMYK_biale.png": "/czorsztynianka-homepage/static/media/logo_CMYK_biale.5e022f784e7e231b0fe8.png",
@@ -42,11 +47,11 @@
     "static/media/1sideIcon.svg": "/czorsztynianka-homepage/static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "/czorsztynianka-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "/czorsztynianka-homepage/static/css/main.7a7431fa.css.map",
-    "main.9c863656.js.map": "/czorsztynianka-homepage/static/js/main.9c863656.js.map",
+    "main.90324fcf.js.map": "/czorsztynianka-homepage/static/js/main.90324fcf.js.map",
     "453.4f50ac07.chunk.js.map": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.9c863656.js"
+    "static/js/main.90324fcf.js"
   ]
 }
