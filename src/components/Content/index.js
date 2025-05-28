@@ -22,8 +22,8 @@ const Content = () => {
             <ContentSection {...housesData} />
             <Gallery title="Galeria zdjęć domków" images={housesImages} />
             <ContentSection {...bikesData} />
-            <BikesPriceList />
             <BikeRental />
+            <BikesPriceList />
             <Address />
         </ Container>
     );
