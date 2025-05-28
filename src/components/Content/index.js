@@ -10,6 +10,7 @@ import ContentSection from "./ContentSection";
 import Gallery from "../Gallery";
 import { cruiseImages } from "./Cruises/images/cruiseImages";
 import { housesImages } from "./Houses/images/housesImages";
+import BikeRental from "../BikeRental";
 
 const Content = () => {
     return (
@@ -22,6 +23,7 @@ const Content = () => {
             <Gallery title="Galeria zdjęć domków" images={housesImages} />
             <ContentSection {...bikesData} />
             <BikesPriceList />
+            <BikeRental />
             <Address />
         </ Container>
     );

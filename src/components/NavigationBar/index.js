@@ -23,9 +23,9 @@ const NavigationBar = () => {
                 </Burger>
 
                 <NavLinks>
-                    <RouterLink to="home" smooth={true} duration={600} offset={-90}>
+                    <NavItem to="home" smooth={true} duration={600} offset={-90}>
                         Home
-                    </RouterLink>
+                    </NavItem>
                     <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
                         Oferta
                     </NavItem>
@@ -41,9 +41,9 @@ const NavigationBar = () => {
                     <NavItem to="partners" smooth={true} duration={1600} offset={-90}>
                         Partnerzy
                     </NavItem>
-                    <RouterLink to="/Wypożyczalnia-rowerów">
+                    <NavItem to="/Wypożyczalnia-rowerów">
                         Wypożyczalnia rowerów
-                    </RouterLink>
+                    </NavItem>
                 </NavLinks>
                 <NavIcons>
                     <a href="https://www.facebook.com/przystanczorsztynianka" target="_blank" title="Facebook" rel="noreferrer">

@@ -6,6 +6,17 @@ export const Container = styled.section`
   padding: 20px 40px;
 `;
 
+export const Header = styled.h2`
+  font-size: 48px;
+  color: #252525;
+  text-align: center;
+  margin: 20px 0;
+
+        @media (max-width: 767px) {
+     font-size: 32px;
+  }
+  `;
+
 export const Image = styled.img`
     width: 100%;
     max-height: 600px;
@@ -18,24 +29,37 @@ grid-template-columns: auto 1fr;
 grid-gap: 72px;
 align-items: center;
 margin: 40px 0;
+background-color: white;
+border: 2px solid rgb(240, 240, 240);
+border-radius: 8px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
 
-@media (max-width: 767px) {
+    &:hover {
+        border-color: rgba(3, 102, 214, 0.2);
+    }
+
+@media (max-width: 992px) {
         grid-template-columns: 1fr; 
         grid-template-rows: auto auto; 
         grid-gap: 16px;
+        text-align: center;
     }
 `;
 
 export const BikeImage = styled.img`
     width: 100%;
     height: auto;
-    max-width: 800px;
+    max-width: 600px;
+    
+      @media (max-width: 992px) {
+        justify-self: center;
+  }
 `;
 
 export const BikeContent = styled.div``;
 
 export const Title = styled.h1`
-font-size: 38px;
+font-size: 30px;
 font-weight: 900;
 margin: 0;
 
