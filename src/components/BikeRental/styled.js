@@ -24,14 +24,9 @@ export const BikesSection = styled.div`
   align-items: center;
   margin: 40px 0;
   background-color: white;
-  border: 2px solid rgb(240, 240, 240);
   border-radius: 8px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   padding: 20px;
-
-    &:hover {
-        border-color: rgba(3, 102, 214, 0.2);
-    }
 
 @media (max-width: 992px) {
         grid-template-columns: 1fr; 
