@@ -4,6 +4,11 @@ export const Container = styled.section`
   max-width: 1440px;
   margin: 0 auto;
   padding: 20px 40px;
+
+    @media (max-width: 767px) {
+     padding: 20px 20px;
+     padding-bottom: 0px;
+  }
 `;
 
 export const Header = styled.h2`
