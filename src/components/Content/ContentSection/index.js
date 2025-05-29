@@ -1,4 +1,4 @@
-import { AddressLink, ContactWrapper, LinkWrapper, SubHeader } from "../styled";
+import { AddressLink, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, SubHeader } from "../styled";
 import {
     Section, Header, DescriptionSection, Description, ImageWrapper, Image
 } from "./styled";
@@ -20,20 +20,37 @@ const ContentSection = ({
         <DescriptionSection>
             <Description>
                 {description}
-                {linkHref && (
-                    <ContactWrapper>
+            </Description>
+            {linkHref && (
+                <ContactWrapper>
+                    <ContactSection>
                         <SubHeader>
-                            W celu rezerwacji oraz uzyskania dodatkowych informacji zapraszamy do kontaktu telefonicznego lub na booking.com:
+                            Dane kontaktowe
                         </SubHeader>
+                        <ContactInfo>
+                            W celu rezerwacji oraz uzyskania dodatkowych informacji <br />
+                            zapraszamy do kontaktu telefonicznego lub na booking.com:
+                        </ContactInfo>
                         <LinkWrapper>
                             <AddressLink href="tel:+48509923730" title="telefon">tel: 509 923 730</AddressLink>
                         </LinkWrapper>
                         <LinkWrapper>
                             <AddressLink href={linkHref} target={linkTarget} rel={linkRel}>{linkText}</AddressLink>
                         </LinkWrapper>
-                    </ContactWrapper>
-                )}
-            </Description>
+                    </ContactSection>
+                    <ContactSection>
+                        <SubHeader>Adres</SubHeader>
+                        <ContactInfo>
+                            Domki "Zamkowe wzgórze" <br />
+                            Osiedle Zamek <br />
+                            34-441 Niedzica
+                            <LinkWrapper>
+                                <AddressLink href="https://maps.app.goo.gl/HRPCRyEyQMwYhMgv5" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Lokalizacja Google Maps</AddressLink>
+                            </LinkWrapper>
+                        </ContactInfo>
+                    </ContactSection>
+                </ContactWrapper>
+            )}
         </DescriptionSection>
         <ImageWrapper $imageSrc={imageSrc}>
             <Image src={imageSrc} alt={imageAlt} />

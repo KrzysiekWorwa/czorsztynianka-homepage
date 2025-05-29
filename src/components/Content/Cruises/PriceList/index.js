@@ -1,4 +1,4 @@
-import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper } from "../../styled";
+import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper, ContactInfo, ContactSection } from "../../styled";
 import { ReactComponent as OneSideIcon } from "./priceIcons/1sideIcon.svg";
 import { ReactComponent as TwoSideIcon } from "./priceIcons/2sidesIcon.svg";
 import { ReactComponent as RoundIcon } from "./priceIcons/RoundIcon.svg";
@@ -56,15 +56,42 @@ const PriceList = () => (
             Wystawiamy faktury VAT. <br />
         </Info>
         <ContactWrapper>
-            <SubHeader>
-                W celu rezerwacji rejsu prosimy o kontakt telefoniczny lub mailowy:
-            </SubHeader>
-            <LinkWrapper>
-                <AddressLink href="tel:+48509438985" title="telefon">tel: 509 438 985</AddressLink>
-            </LinkWrapper>
-            <LinkWrapper>
-                <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com">biuro@zalewczorsztynski.com</AddressLink>
-            </LinkWrapper>
+            <ContactSection>
+                <SubHeader>
+                    Dane kontaktowe
+                </SubHeader>
+                <ContactInfo>
+                    W celu rezerwacji rejsu prosimy o kontakt <br /> telefoniczny lub mailowy:
+                </ContactInfo>
+                <LinkWrapper>
+                    <AddressLink href="tel:+48509438985" title="telefon">tel: 509 438 985</AddressLink>
+                </LinkWrapper>
+                <LinkWrapper>
+                    <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com">biuro@zalewczorsztynski.com</AddressLink>
+                </LinkWrapper>
+            </ContactSection>
+            <ContactSection>
+                <SubHeader>Nasza lokalizaca w Czorsztynie</SubHeader>
+                <ContactInfo>
+                    Przystań Czorsztynianka <br />
+                    ul. Wronina 1 <br />
+                    34-440 Czorsztyn
+                    <LinkWrapper>
+                        <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                    </LinkWrapper>
+                </ContactInfo>
+            </ContactSection>
+            <ContactSection>
+                <SubHeader>Nasza lokalizaca w Niedzicy</SubHeader>
+                <ContactInfo>
+                    Pomost dla gondoli Niedzica <br />
+                    Osiedle Zamek 11 <br />
+                    34-441 Niedzica
+                    <LinkWrapper>
+                        <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                    </LinkWrapper>
+                </ContactInfo>
+            </ContactSection>
         </ContactWrapper>
     </Wrapper>
 );

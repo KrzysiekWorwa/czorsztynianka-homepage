@@ -37,10 +37,15 @@ const Address = () => (
                     Nasza lokalizacja w Czorsztynie
                 </AddressSubHeader>
                 <Info>
-                    Przystań "Jędruś" <br />
+                    Przystań Czorsztynianka <br />
                     ul. Wronina 1 <br />
                     34-440 Czorsztyn <br />
                 </Info>
+                <LinkWrapper>
+                    <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                </LinkWrapper>
+            </AddressInfo>
+            <AddressInfo>
                 <AddressSubHeader>
                     Nasza lokalizacja w Niedzicy
                 </AddressSubHeader>
@@ -49,6 +54,9 @@ const Address = () => (
                     Osiedle Zamek 11 <br />
                     34-441 Niedzica <br />
                 </Info>
+                <LinkWrapper>
+                    <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                </LinkWrapper>
             </AddressInfo>
         </AddressContentWrapper>
         <MapContainer>

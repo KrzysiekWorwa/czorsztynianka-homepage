@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const ListWrapper = styled.section`
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 40px;
+    padding-bottom: 40px;
+
+        @media (max-width: 767px) {
+        padding: 0px 20px;
+}
+`;
+
 export const List = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);

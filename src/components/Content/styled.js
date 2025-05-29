@@ -10,7 +10,6 @@ export const Wrapper = styled.section`
     flex-direction: column;
     padding: 0px 40px;
     padding-bottom: 40px;
-    text-align: center;
 
         @media (max-width: 767px) {
         padding: 0px 20px;
@@ -117,10 +116,16 @@ export const TableCell = styled.td`
     }
   }
 `;
+export const ContactSection = styled.address`
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+`;
 
 export const Info = styled.div`
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
 
   @media (max-width: 767px) {
     font-size: 14px;
@@ -129,10 +134,27 @@ export const Info = styled.div`
 
 export const ContactWrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: flex-start;
-  padding-top: 40px;
-  max-width: 800px;
+  padding: 40px 0;
+  gap: 40px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap:30px;
+  }
+`;
+
+export const ContactInfo = styled.p`
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 670px;
+    line-height: 1.4;
+
+    @media (max-width: 767px) {
+    font-size: 14px;
+}
 `;
 
 export const LinkWrapper = styled.div`
@@ -145,10 +167,10 @@ export const AddressLink = styled.a`
     font-weight: 700;
     text-decoration: none;
     transition: color 0.3s;
-    color: #252525;
+    color: #93A981;
 
     &:hover {
-        color: #93A981;
+        color: #252525;
     }
 
     @media (max-width: 767px) {

@@ -1,10 +1,10 @@
-import { Header, Wrapper } from "../styled";
-import { List, Tile, Name, Description } from "./styled";
+import { Header } from "../styled";
+import { List, Tile, Name, Description, ListWrapper } from "./styled";
 import { Link } from "react-scroll";
 
 const Offer = () => {
     return (
-        <Wrapper id="usługi">
+        <ListWrapper id="usługi">
             <Header>Nasza oferta</Header>
             <List>
                 <Tile as={Link} to="rejsy-po-jeziorze" smooth={true} duration={600} offset={-90} style={{ cursor: 'pointer' }}>
@@ -20,7 +20,7 @@ const Offer = () => {
                     <Description>Wypożyczalnia rowerów tradycyjnych, elektycznych oraz sprzętu rowerowego znajdująca się przy naszej przystani w Czorsztynie</Description>
                 </Tile>
             </List>
-        </Wrapper>
+        </ListWrapper>
     );
 };
 

@@ -47,10 +47,10 @@ export const AddressLink = styled.a`
     font-weight: 700;
     text-decoration: none;
     transition: color 0.3s;
-    color: #252525;
+    color: #93A981;
 
     &:hover {
-        color: #93A981;
+        color: #252525;
     }
 
     @media (max-width: 767px) {
@@ -105,6 +105,7 @@ export const InstagramIcon = styled(InstagramIconLink)`
 export const AddressContentWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 40px;
   align-items: flex-start;
 
@@ -118,7 +119,7 @@ export const MapContainer = styled.div`
 flex: 1;
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; // 16:9 ratio
+  padding-bottom: 56.25%;
   height: 0;
   margin-top: 20px;
   display: flex;

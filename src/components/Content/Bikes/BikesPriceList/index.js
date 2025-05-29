@@ -1,4 +1,4 @@
-import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper } from "../../styled";
+import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper, ContactSection, ContactInfo } from "../../styled";
 import { ReactComponent as BikeIcon } from "./bikesIcons/bicycle-54.svg";
 import { ReactComponent as ElectricBikeIcon } from "./bikesIcons/bicycle-electric-svgrepo-com.svg";
 import { ReactComponent as TrailerIcon } from "./bikesIcons/bicycle-trailer-svgrepo-com.svg";
@@ -51,18 +51,34 @@ const BikesPriceList = () => (
             </tbody>
         </StyledTable>
         <Info>* cały dzień jest rozumiany w godzinach otwarcia wypożyczalni <br />
-        <strong>Klienci mają możliwość darmowego przewozu wypożyczonego roweru naszymi gondolami</strong>
+            <strong>Klienci mają możliwość darmowego przewozu wypożyczonego roweru naszymi gondolami</strong>
         </Info>
         <ContactWrapper>
-            <SubHeader>
-                W celu rezerwacji rowerów prosimy o kontakt telefoniczny lub mailowy:
-            </SubHeader>
-            <LinkWrapper>
-                <AddressLink href="tel:+48570631403" title="telefon">tel: 570 631 403</AddressLink>
-            </LinkWrapper>
-            <LinkWrapper>
-                <AddressLink href="mailto:velo@zalewczorsztynski.com" title="velo@zalewczorsztynski.com">velo@zalewczorsztynski.com</AddressLink>
-            </LinkWrapper>
+            <ContactSection>
+                <SubHeader>
+                    Dane kontaktowe
+                </SubHeader>
+                <ContactInfo>
+                    W celu rezerwacji rowerów prosimy o kontakt telefoniczny lub mailowy:
+                </ContactInfo>
+                <LinkWrapper>
+                    <AddressLink href="tel:+48570631403" title="telefon">tel: 570 631 403</AddressLink>
+                </LinkWrapper>
+                <LinkWrapper>
+                    <AddressLink href="mailto:velo@zalewczorsztynski.com" title="velo@zalewczorsztynski.com">velo@zalewczorsztynski.com</AddressLink>
+                </LinkWrapper>
+            </ContactSection>
+            <ContactSection>
+                <SubHeader>Adres</SubHeader>
+                <ContactInfo>
+                    Wypożyczalnia rowerów "Velo Czorsztyn" <br />
+                    Wronina 1 <br />
+                    34-440 Czorsztyn
+                    <LinkWrapper>
+                        <AddressLink href="https://maps.app.goo.gl/eg1zaYx7ESMogBsj6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                    </LinkWrapper>
+                </ContactInfo>
+            </ContactSection>
         </ContactWrapper>
     </Wrapper>
 );
