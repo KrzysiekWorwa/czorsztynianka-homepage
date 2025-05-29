@@ -4,7 +4,7 @@ import bikeImage3 from "./images/hero-skl-focarini-petrol.webp";
 import bikeImage4 from "./images/invader-707-skl-focarini-lime.webp";
 import bikeImage5 from "./images/raptor-nodisc-skl-focarini-black.webp";
 import trailerImage from "./images/przyczepka-rowerowa-hamax-ixplorer.webp";
-import seatImage from "./images/polisport-fotelik-rowerowy-groovy-ff-czarno-szary-mocowany-do-ramy-3-punktowe-pasy-normy-en14344-ce-tuv-b-iext185412257.webp";
+import seatImage from "./images/polisport-fotelik.webp";
 import helmetImage from "./images/kask.webp";
 
 export const bikeList = [

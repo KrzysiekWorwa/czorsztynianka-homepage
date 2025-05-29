@@ -72,6 +72,7 @@ export const TableRow = styled.tr`
     border-radius: 10px;
     padding: 10px;
     font-size: 14px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
   }
 `;
 
@@ -146,7 +147,7 @@ export const ContactWrapper = styled.div`
   }
 `;
 
-export const ContactInfo = styled.p`
+export const ContactInfo = styled.div`
     font-size: 18px;
     font-weight: 400;
     max-width: 670px;

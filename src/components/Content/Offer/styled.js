@@ -27,7 +27,7 @@ export const List = styled.ul`
     `;
 
 export const Tile = styled.li`
-    padding: 56px;
+    padding: 60px;
     border-radius: 10px;
     border: 2px solid rgb(240, 240, 240);
     margin: 0;
@@ -38,8 +38,7 @@ export const Tile = styled.li`
     }
 
     @media (max-width: 767px) {
-        padding: 20px;
-        border: 2px solid rgb(241, 241, 241);
+        padding: 30px;
     }
 `;
 
