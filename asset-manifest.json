@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/czorsztynianka-homepage/static/css/main.7a7431fa.css",
-    "main.js": "/czorsztynianka-homepage/static/js/main.fc9cba3f.js",
+    "main.js": "/czorsztynianka-homepage/static/js/main.495d2d52.js",
     "static/js/453.4f50ac07.chunk.js": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js",
     "static/media/logo-ekomuzeum.jpeg": "/czorsztynianka-homepage/static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
     "static/media/Baner.jpg": "/czorsztynianka-homepage/static/media/Baner.5855ba6a2e3557122224.jpg",
@@ -32,6 +32,9 @@
     "static/media/DSC_8877.webp": "/czorsztynianka-homepage/static/media/DSC_8877.898005c6dd4d2c6c8eca.webp",
     "static/media/DSC_8903.webp": "/czorsztynianka-homepage/static/media/DSC_8903.3cea04c90143cfb32c2e.webp",
     "static/media/DSC_8904.webp": "/czorsztynianka-homepage/static/media/DSC_8904.f56aa2302795eeed368b.webp",
+    "static/media/kask.webp": "/czorsztynianka-homepage/static/media/kask.a2547365987f1a1b364e.webp",
+    "static/media/polisport-fotelik.webp": "/czorsztynianka-homepage/static/media/polisport-fotelik.0ace72650480de5cfec9.webp",
+    "static/media/przyczepka-rowerowa-hamax-ixplorer.webp": "/czorsztynianka-homepage/static/media/przyczepka-rowerowa-hamax-ixplorer.8b4fbe50f87024228ce7.webp",
     "static/media/bochniak-logo.jpg": "/czorsztynianka-homepage/static/media/bochniak-logo.a61ec1b88bbea5f65d25.jpg",
     "static/media/logo-chocholow.png": "/czorsztynianka-homepage/static/media/logo-chocholow.eeea59ab10ae835410b5.png",
     "static/media/bicycle-54.svg": "/czorsztynianka-homepage/static/media/bicycle-54.9e2a95417dc898821d8387493b87300d.svg",
@@ -47,11 +50,11 @@
     "static/media/1sideIcon.svg": "/czorsztynianka-homepage/static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "/czorsztynianka-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "/czorsztynianka-homepage/static/css/main.7a7431fa.css.map",
-    "main.fc9cba3f.js.map": "/czorsztynianka-homepage/static/js/main.fc9cba3f.js.map",
+    "main.495d2d52.js.map": "/czorsztynianka-homepage/static/js/main.495d2d52.js.map",
     "453.4f50ac07.chunk.js.map": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.fc9cba3f.js"
+    "static/js/main.495d2d52.js"
   ]
 }
