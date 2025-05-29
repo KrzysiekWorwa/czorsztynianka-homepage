@@ -28,7 +28,7 @@ font-size: 32px;
 export const SubHeader = styled.h3`
     font-size: 24px;
     text-align: left;
-    margin: 0;
+    
         @media (max-width: 767px) {
         font-size: 18px;
 }
