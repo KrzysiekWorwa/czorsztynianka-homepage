@@ -1,5 +1,6 @@
+import { AddressLink, ContactWrapper, LinkWrapper, SubHeader } from "../styled";
 import {
-    Section, Header, DescriptionSection, Description, ImageWrapper, Image, Link
+    Section, Header, DescriptionSection, Description, ImageWrapper, Image
 } from "./styled";
 
 const ContentSection = ({
@@ -20,12 +21,17 @@ const ContentSection = ({
             <Description>
                 {description}
                 {linkHref && (
-                    <>
-                        <br />
-                        <Link href={linkHref} target={linkTarget} rel={linkRel}>
-                            {linkText}
-                        </Link> {afterLink}
-                    </>
+                    <ContactWrapper>
+                        <SubHeader>
+                            W celu rezerwacji oraz uzyskania dodatkowych informacji zapraszamy do kontaktu telefonicznego lub na booking.com:
+                        </SubHeader>
+                        <LinkWrapper>
+                            <AddressLink href="tel:+48509923730" title="telefon">tel: 509 923 730</AddressLink>
+                        </LinkWrapper>
+                        <LinkWrapper>
+                            <AddressLink href={linkHref} target={linkTarget} rel={linkRel}>{linkText}</AddressLink>
+                        </LinkWrapper>
+                    </ContactWrapper>
                 )}
             </Description>
         </DescriptionSection>

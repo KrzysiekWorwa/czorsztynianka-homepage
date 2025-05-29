@@ -132,7 +132,7 @@ export const ContactWrapper = styled.div`
   flex-direction: column;
   align-items: flex-start;
   padding-top: 40px;
-  max-width: 600px;
+  max-width: 800px;
 `;
 
 export const LinkWrapper = styled.div`

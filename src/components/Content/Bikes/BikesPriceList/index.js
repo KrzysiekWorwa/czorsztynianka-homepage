@@ -50,16 +50,18 @@ const BikesPriceList = () => (
                 </TableRow>
             </tbody>
         </StyledTable>
-        <Info>* cały dzień jest rozumiany w godzinach otwarcia wypożyczalni</Info>
+        <Info>* cały dzień jest rozumiany w godzinach otwarcia wypożyczalni <br />
+        <strong>Klienci mają możliwość darmowego przewozu wypożyczonego roweru naszymi gondolami</strong>
+        </Info>
         <ContactWrapper>
             <SubHeader>
-                W celu rezerwacji rejsu prosimy o kontakt telefoniczny lub mailowy:
+                W celu rezerwacji rowerów prosimy o kontakt telefoniczny lub mailowy:
             </SubHeader>
             <LinkWrapper>
-                <AddressLink href="tel:+48509438985" title="telefon">tel: 509 438 985</AddressLink>
+                <AddressLink href="tel:+48570631403" title="telefon">tel: 570 631 403</AddressLink>
             </LinkWrapper>
             <LinkWrapper>
-                <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com">biuro@zalewczorsztynski.com</AddressLink>
+                <AddressLink href="mailto:velo@zalewczorsztynski.com" title="velo@zalewczorsztynski.com">velo@zalewczorsztynski.com</AddressLink>
             </LinkWrapper>
         </ContactWrapper>
     </Wrapper>

@@ -94,11 +94,3 @@ export const Image = styled.img`
     display: none;
   }
 `;
-
-export const Link = styled.a`
-  color: hsl(212, 97.2%, 42.5%);
-
-  &:hover {
-    color: hsl(212, 97.2%, 60%);
-  }
-`;
