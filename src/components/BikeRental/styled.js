@@ -73,3 +73,34 @@ line-height: 1.4;
         text-align: left;
     }
 `;
+
+export const AnimatedWrapper = styled.div`
+  overflow: hidden;
+`;
+
+export const ButtonDiv = styled.div`
+  text-align: center;
+  margin-top: 20px;
+`;
+
+export const ShowMoreButton = styled.button`
+  background: white;
+  color: black;
+  padding: 30px 40px;
+  font-size: 25px;
+  font-weight: 900;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+    &:hover {
+        border-color: rgba(3, 102, 214, 0.2);
+    }
+
+    @media (max-width: 992px) {
+        padding: 20px;
+        font-size: 22px;
+    }
+`;
