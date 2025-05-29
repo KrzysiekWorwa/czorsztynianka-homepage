@@ -71,7 +71,7 @@ const PriceList = () => (
                 </LinkWrapper>
             </ContactSection>
             <ContactSection>
-                <SubHeader>Nasza lokalizaca w Czorsztynie</SubHeader>
+                <SubHeader>Nasza lokalizacja w Czorsztynie</SubHeader>
                 <ContactInfo>
                     Przystań Czorsztynianka <br />
                     ul. Wronina 1 <br />
@@ -82,7 +82,7 @@ const PriceList = () => (
                 </ContactInfo>
             </ContactSection>
             <ContactSection>
-                <SubHeader>Nasza lokalizaca w Niedzicy</SubHeader>
+                <SubHeader>Nasza lokalizacja w Niedzicy</SubHeader>
                 <ContactInfo>
                     Pomost dla gondoli Niedzica <br />
                     Osiedle Zamek 11 <br />
