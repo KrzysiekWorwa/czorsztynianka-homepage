@@ -1,5 +1,4 @@
-import { Header, Wrapper } from "../../Offer/styled";
-import { StyledTable, TableHeader, TableCell, TableRow, Info } from "./styled";
+import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper } from "../../styled";
 import { ReactComponent as OneSideIcon } from "./priceIcons/1sideIcon.svg";
 import { ReactComponent as TwoSideIcon } from "./priceIcons/2sidesIcon.svg";
 import { ReactComponent as RoundIcon } from "./priceIcons/RoundIcon.svg";
@@ -52,12 +51,21 @@ const PriceList = () => (
             </tbody>
         </StyledTable>
         <Info>
-            <p><strong>Dla grup zorganizowanych (szkolnych, firmowych, wycieczek)</strong> możliwość rezerwacji rejsu.<br />
-                W przypadku grup zorganizowanych możliwość negocjacji ceny. <br />
-                Wystawiamy faktury VAT. <br />
-                <strong>W celu rezerwacji rejsu prosimy o kontakt pod numerem telefonu 509 438 985 lub mailowo biuro@zalewczorsztynski.com</strong>
-                </p>
+            <strong>Dla grup zorganizowanych (szkolnych, firmowych, wycieczek)</strong> możliwość rezerwacji rejsu.<br />
+            W przypadku grup zorganizowanych możliwość negocjacji ceny. <br />
+            Wystawiamy faktury VAT. <br />
         </Info>
+        <ContactWrapper>
+            <SubHeader>
+                W celu rezerwacji rejsu prosimy o kontakt telefoniczny lub mailowy:
+            </SubHeader>
+            <LinkWrapper>
+                <AddressLink href="tel:+48509438985" title="telefon">tel: 509 438 985</AddressLink>
+            </LinkWrapper>
+            <LinkWrapper>
+                <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com">biuro@zalewczorsztynski.com</AddressLink>
+            </LinkWrapper>
+        </ContactWrapper>
     </Wrapper>
 );
 

@@ -1,5 +1,4 @@
-import { Header, Wrapper } from "../../Offer/styled";
-import { StyledTable, TableHeader, TableCell, TableRow, Info } from "./styled";
+import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper } from "../../styled";
 import { ReactComponent as BikeIcon } from "./bikesIcons/bicycle-54.svg";
 import { ReactComponent as ElectricBikeIcon } from "./bikesIcons/bicycle-electric-svgrepo-com.svg";
 import { ReactComponent as TrailerIcon } from "./bikesIcons/bicycle-trailer-svgrepo-com.svg";
@@ -52,6 +51,17 @@ const BikesPriceList = () => (
             </tbody>
         </StyledTable>
         <Info>* cały dzień jest rozumiany w godzinach otwarcia wypożyczalni</Info>
+        <ContactWrapper>
+            <SubHeader>
+                W celu rezerwacji rejsu prosimy o kontakt telefoniczny lub mailowy:
+            </SubHeader>
+            <LinkWrapper>
+                <AddressLink href="tel:+48509438985" title="telefon">tel: 509 438 985</AddressLink>
+            </LinkWrapper>
+            <LinkWrapper>
+                <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com">biuro@zalewczorsztynski.com</AddressLink>
+            </LinkWrapper>
+        </ContactWrapper>
     </Wrapper>
 );
 

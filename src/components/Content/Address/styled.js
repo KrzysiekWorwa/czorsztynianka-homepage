@@ -30,13 +30,6 @@ export const AddressSubHeader = styled.h3`
 }
 `;
 
-export const AddressDescription = styled.p`
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: initial;
-    margin: 0%;
-`;
-
 export const AddressInfo = styled.address`
     font-style: normal;
 `;

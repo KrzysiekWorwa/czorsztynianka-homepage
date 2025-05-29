@@ -1,28 +1,5 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 40px;
-    padding-bottom: 40px;
-    text-align: center;
-
-        @media (max-width: 767px) {
-        padding: 0px 20px;
-}
-`;
-
-
-export const Header = styled.h2`
-    font-size: 48px;
-    text-align: center;
-    
-    @media (max-width: 767px) {
-font-size: 32px;
-}
-`;
-
 export const List = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -1,4 +1,5 @@
-import { Wrapper, Header, List, Tile, Name, Description } from "./styled";
+import { Header, Wrapper } from "../styled";
+import { List, Tile, Name, Description } from "./styled";
 import { Link } from "react-scroll";
 
 const Offer = () => {
