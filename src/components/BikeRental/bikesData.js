@@ -3,6 +3,9 @@ import bikeImage2 from "./images/rower-elektryczny-cube-reaction-hybrid-pro-500-
 import bikeImage3 from "./images/hero-skl-focarini-petrol.webp";
 import bikeImage4 from "./images/invader-707-skl-focarini-lime.webp";
 import bikeImage5 from "./images/raptor-nodisc-skl-focarini-black.webp";
+import trailerImage from "./images/przyczepka-rowerowa-hamax-ixplorer.webp";
+import seatImage from "./images/polisport-fotelik-rowerowy-groovy-ff-czarno-szary-mocowany-do-ramy-3-punktowe-pasy-normy-en14344-ce-tuv-b-iext185412257.webp";
+import helmetImage from "./images/kask.webp";
 
 export const bikeList = [
   {
@@ -20,19 +23,37 @@ export const bikeList = [
   {
     id: 3,
     title: "Rower SKL Hero Focarini petrol",
-    description: "To solidny rower dla osób poszukujących wyzwań podczas jazdy. Doskonałe połączenie niezawodności i jakości. Konstrukcja oparta na aluminiowej ramie oraz amortyzowanym widelcu aluminiowym z blokadą skoku. Zastosowanie lekkich aluminiowych komponentów znacząco wpływa na obniżenie wagi całego roweru a osprzęt Shimano gwarantuje płynną pracę komponentów napędu. Dzięki hamulcom tarczowym nie musisz obawiać się o skuteczność hamowania bez względu na warunki atmosferyczne",
+    description: "To solidny rower dla osób poszukujących wyzwań podczas jazdy. Doskonałe połączenie niezawodności i jakości. Konstrukcja oparta na aluminiowej ramie oraz amortyzowanym widelcu aluminiowym z blokadą skoku. Zastosowanie lekkich aluminiowych komponentów znacząco wpływa na obniżenie wagi całego roweru a osprzęt Shimano gwarantuje płynną pracę komponentów napędu. Dzięki hamulcom tarczowym nie musisz obawiać się o skuteczność hamowania bez względu na warunki",
     image: bikeImage3,
   },
   {
     id: 4,
     title: "Rower SKL Invader",
-    description: "To solidny rower dla osób ceniących sobie pewność prowadzenia i trwałość konstrukcji. Aluminiowa rama typu hardtail wykonana z lekkiego stopu gwarantuje wysoką sztywność i niską wagę – całość waży zaledwie 15,4 kg. Amortyzowany widelec z możliwością blokady skutecznie tłumi nierówności, pozwalając na komfortową jazdę zarówno w terenie, jak i po asfalcie. Napęd oparty na komponentach Shimano oraz aluminiowym mechanizmie korbowym 3-rzędowym zapewnia precyzyjne i płynne przełożenia nawet pod obciążeniem. Mechaniczne hamulce tarczowe gwarantują pewne zatrzymanie niezależnie od warunków pogodowych.",
+    description: "To solidny rower dla osób ceniących sobie pewność prowadzenia i trwałość konstrukcji. Aluminiowa rama typu hardtail wykonana z lekkiego stopu gwarantuje wysoką sztywność i niską wagę. Amortyzowany widelec z możliwością blokady skutecznie tłumi nierówności, pozwalając na komfortową jazdę zarówno w terenie, jak i po asfalcie. Napęd oparty na komponentach Shimano oraz aluminiowym mechanizmie korbowym 3-rzędowym zapewnia precyzyjne i płynne przełożenia nawet pod obciążeniem. Mechaniczne hamulce tarczowe gwarantują pewne zatrzymanie niezależnie od warunków pogodowych.",
     image: bikeImage4,
   },
   {
     id: 5,
     title: "Rower SKL raptor",
-    description: " Ten model to świetny wybór dla młodzieży lub niższych dorosłych, oferujący połączenie wygody, bezpieczeństwa i solidnych komponentów. Model oparty jest na solidnej aluminiowej ramie która zapewnia odpowiednią sztywność i łatwość manewrowania. Zastosowany amortyzowany widelec skutecznie tłumi drgania, co przekłada się na wyższy komfort jazdy, szczególnie na nierównym terenie. Napęd oparty na sprawdzonym zestawie Shimano pozwala na płynną zmianę biegów i dostosowanie tempa do ukształtowania terenu. Koła o rozmiarze 24” są idealne do miejskich tras, ścieżek rowerowych i lekkiego terenu, a stalowy mechanizm korbowy gwarantuje trwałość nawet przy intensywnym użytkowaniu. Zmiana przełożeń jest intuicyjna i szybka – nawet dla mniej doświadczonych rowerzystów.",
+    description: " Ten model to świetny wybór dla młodzieży lub niższych dorosłych, oferujący połączenie wygody, bezpieczeństwa i solidnych komponentów. Model oparty jest na solidnej aluminiowej ramie która zapewnia odpowiednią sztywność i łatwość manewrowania. Zastosowany amortyzowany widelec skutecznie tłumi drgania, co przekłada się na wyższy komfort jazdy, szczególnie na nierównym terenie. Napęd oparty na sprawdzonym zestawie Shimano pozwala na płynną zmianę biegów i dostosowanie tempa do ukształtowania terenu. Koła o rozmiarze 24” są idealne do miejskich tras, ścieżek rowerowych i lekkiego terenu. Zmiana przełożeń jest intuicyjna i szybka.",
     image: bikeImage5,
+  },
+  {
+    id: 6,
+    title: "Przyczepka Hamax Ixplorer",
+    description: "Przeznaczona do wygodnego i bezpiecznego transportu dwójki dzieci podczas rowerowych przejażdżek i pieszych spacerów. Dziel z dziećmi przyjemność rowerowej przejażdżki lub pieszego spaceru. Dzięki okienkom, osłonie przeciwsłonecznej, osłonie przed deszczem i moskitierze dziecko w pełni cieszy się przejażdżką. Przyczepa posiada również 5-punktowe pasy dla zwiększenia bezpieczeństwa dziecka podczas jazdy. ",
+    image: trailerImage,
+  },
+  {
+    id: 7,
+    title: "Fotelik rowerowy Polisport Move",
+    description: "Przeznaczony do wygodnego i bezpiecznego przewożenia dziecka na rowerze.  Dostosowany do jazdy dziecka w kasku. Wysokie ergonomiczne oparcie oraz specjalnie wyprofilowane podłokietniki gwarantują dziecku wygodną i naturalną pozycję, nawet podczas dłuższych tras a trzypunktowe pasy bezpieczeństwa umożliwiają szybkie i pewne zapięcie dziecka. Dodatkowe elementy, takie jak tylny odblask zwiększają bezpieczeństwo.  Fotelik przeznaczony jest dla dzieci o wadze od 9 do 22 kg.",
+    image: seatImage,
+  },
+    {
+    id: 8,
+    title: "Kask rowerowy",
+    description: "Kask crossowy zaprojektowany z myślą o bezpieczeństwie i komforcie podczas jazdy na rowerze, hulajnodze czy rolkach. Dzięki 18 otworom wentylacyjnym i lekkiej konstrukcji doskonale odprowadza ciepło i wilgoć, zachowując najwyższe standardy ochrony. System regulacji Head Lock umożliwia idealne dopasowanie kasku do głowy użytkownika.",
+    image: helmetImage,
   },
 ];

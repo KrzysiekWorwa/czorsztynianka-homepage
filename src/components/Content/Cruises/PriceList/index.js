@@ -54,7 +54,9 @@ const PriceList = () => (
         <Info>
             <p><strong>Dla grup zorganizowanych (szkolnych, firmowych, wycieczek)</strong> możliwość rezerwacji rejsu.<br />
                 W przypadku grup zorganizowanych możliwość negocjacji ceny. <br />
-                Wystawiamy faktury VAT.</p>
+                Wystawiamy faktury VAT. <br />
+                <strong>W celu rezerwacji rejsu prosimy o kontakt pod numerem telefonu 509 438 985 lub mailowo biuro@zalewczorsztynski.com</strong>
+                </p>
         </Info>
     </Wrapper>
 );

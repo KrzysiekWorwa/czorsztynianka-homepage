@@ -66,12 +66,12 @@ font-size: 22px;
 `;
 
 export const Description = styled.p`
-font-size: 20px;
+font-size: 18px;
 font-weight: 400;
-letter-spacing: 5%;
+line-height: 1.4;
 
 @media (max-width: 992px) {
-        font-size: 17px;
+        font-size: 14px;
         text-align: left;
     }
 `;
