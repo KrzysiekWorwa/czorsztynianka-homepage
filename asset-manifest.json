@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/czorsztynianka-homepage/static/css/main.7a7431fa.css",
-    "main.js": "/czorsztynianka-homepage/static/js/main.c8e80bfa.js",
+    "main.js": "/czorsztynianka-homepage/static/js/main.4f30bd48.js",
     "static/js/453.4f50ac07.chunk.js": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js",
     "static/media/logo-ekomuzeum.jpeg": "/czorsztynianka-homepage/static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
     "static/media/Baner.jpg": "/czorsztynianka-homepage/static/media/Baner.5855ba6a2e3557122224.jpg",
@@ -40,21 +40,25 @@
     "static/media/bicycle-54.svg": "/czorsztynianka-homepage/static/media/bicycle-54.9e2a95417dc898821d8387493b87300d.svg",
     "static/media/instagramIcon.svg": "/czorsztynianka-homepage/static/media/instagramIcon.7bad0c3cde2835fa701a1538d5bc741b.svg",
     "static/media/bicycle-electric-svgrepo-com.svg": "/czorsztynianka-homepage/static/media/bicycle-electric-svgrepo-com.effe5cdcb7321624ede29330a9622255.svg",
+    "static/media/booking.svg": "/czorsztynianka-homepage/static/media/booking.0ee5346cc9999bba695a469909ac995d.svg",
     "static/media/bicycle-helmet-svgrepo-com.svg": "/czorsztynianka-homepage/static/media/bicycle-helmet-svgrepo-com.008b81e841b4a66d09e122e530058dd0.svg",
     "static/media/bicycle-trailer-svgrepo-com.svg": "/czorsztynianka-homepage/static/media/bicycle-trailer-svgrepo-com.89e19e26d78e0a4afdecd2b3ed381fc4.svg",
     "static/media/car-seat-with-seatbelt-svgrepo-com.svg": "/czorsztynianka-homepage/static/media/car-seat-with-seatbelt-svgrepo-com.2a985e35d5b7eeee5af0b4017d1cc893.svg",
     "index.html": "/czorsztynianka-homepage/index.html",
+    "static/media/mail.svg": "/czorsztynianka-homepage/static/media/mail.5ac0b31659c5e2144a6a911565f07ac4.svg",
+    "static/media/phone.svg": "/czorsztynianka-homepage/static/media/phone.fd3670642d65d31b798689fa58d7d660.svg",
+    "static/media/pin.svg": "/czorsztynianka-homepage/static/media/pin.d5465f5ee01759b06233e45ba9fa81d8.svg",
     "static/media/facebookIcon.svg": "/czorsztynianka-homepage/static/media/facebookIcon.f266fa5079fb10e3e6344e3b9358ce04.svg",
     "static/media/RoundIcon.svg": "/czorsztynianka-homepage/static/media/RoundIcon.978d551e2642412a68343b961abbbd82.svg",
     "static/media/2sidesIcon.svg": "/czorsztynianka-homepage/static/media/2sidesIcon.f95d51d20adf15ebf99cc48a4caaabee.svg",
     "static/media/1sideIcon.svg": "/czorsztynianka-homepage/static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "/czorsztynianka-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "/czorsztynianka-homepage/static/css/main.7a7431fa.css.map",
-    "main.c8e80bfa.js.map": "/czorsztynianka-homepage/static/js/main.c8e80bfa.js.map",
+    "main.4f30bd48.js.map": "/czorsztynianka-homepage/static/js/main.4f30bd48.js.map",
     "453.4f50ac07.chunk.js.map": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.c8e80bfa.js"
+    "static/js/main.4f30bd48.js"
   ]
 }
