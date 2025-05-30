@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import { ReactComponent as FacebookIconLink } from "../../SvgIcons/facebookIcon.svg";
 import { ReactComponent as InstagramIconLink } from "../../SvgIcons/instagramIcon.svg";
+import { ReactComponent as PhoneIconLink } from "../../SvgIcons/phone.svg";
+import { ReactComponent as MailIconLink } from "../../SvgIcons/mail.svg";
+import { ReactComponent as PinIconLink } from "../../SvgIcons/pin.svg";
 
 export const AddressSection = styled.section`
   padding: 40px 40px;
@@ -36,15 +39,15 @@ export const AddressInfo = styled.address`
 
 export const LinkWrapper = styled.div`
     margin: 12px 0;
-
-    @media (max-width: 767px) {
-    margin: 12px 0;
-}
 `;
 
 export const AddressLink = styled.a`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: bold;
     text-decoration: none;
     transition: color 0.3s;
     color: #93A981;
@@ -138,3 +141,35 @@ flex: 1;
     height: 300px;
   }
 `;
+export const PhoneIcon = styled(PhoneIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+        @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+`;
+
+export const MailIcon = styled(MailIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+        @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+  `;
+
+export const PinIcon = styled(PinIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+      @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+  `;

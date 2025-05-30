@@ -1,4 +1,4 @@
-import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressHeader, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, MapContainer } from "./styled";
+import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressHeader, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, MapContainer, PhoneIcon, MailIcon, PinIcon } from "./styled";
 
 const Address = () => (
     <AddressSection id="address">
@@ -18,10 +18,10 @@ const Address = () => (
                     ul. Krótka 6 <br />
                 </Info>
                 <LinkWrapper>
-                    <AddressLink href="tel:+48509438985" title="telefon">tel: 509 438 985</AddressLink>
+                    <AddressLink href="tel:+48509438985" title="telefon"><PhoneIcon /> 509 438 985</AddressLink>
                 </LinkWrapper>
                 <LinkWrapper>
-                    <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com">biuro@zalewczorsztynski.com</AddressLink>
+                    <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com"><MailIcon />biuro@zalewczorsztynski.com</AddressLink>
                 </LinkWrapper>
                 <IconsWrapper>
                     <a href="https://www.facebook.com/przystanczorsztynianka" target="_blank" title="Facebook" rel="noreferrer">
@@ -42,7 +42,7 @@ const Address = () => (
                     34-440 Czorsztyn <br />
                 </Info>
                 <LinkWrapper>
-                    <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                    <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                 </LinkWrapper>
             </AddressInfo>
             <AddressInfo>
@@ -55,7 +55,7 @@ const Address = () => (
                     34-441 Niedzica <br />
                 </Info>
                 <LinkWrapper>
-                    <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                    <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                 </LinkWrapper>
             </AddressInfo>
         </AddressContentWrapper>

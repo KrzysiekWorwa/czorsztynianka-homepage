@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import { ReactComponent as PhoneIconLink } from "../SvgIcons/phone.svg";
+import { ReactComponent as MailIconLink } from "../SvgIcons/mail.svg";
+import { ReactComponent as PinIconLink } from "../SvgIcons/pin.svg";
+import { ReactComponent as BookingIconLink } from "../SvgIcons/booking.svg";
 
 export const Container = styled.div`
   max-width: 1440px;
@@ -164,8 +168,12 @@ export const LinkWrapper = styled.div`
 `;
 
 export const AddressLink = styled.a`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: bold;
     text-decoration: none;
     transition: color 0.3s;
     color: #93A981;
@@ -176,5 +184,49 @@ export const AddressLink = styled.a`
 
     @media (max-width: 767px) {
     font-size: 17px;
+}
+`;
+
+export const PhoneIcon = styled(PhoneIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+        @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+`;
+
+export const MailIcon = styled(MailIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+        @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+  `;
+
+export const PinIcon = styled(PinIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+      @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+`;
+
+export const BookingIcon = styled(BookingIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+      @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
 }
 `;

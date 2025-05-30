@@ -1,4 +1,4 @@
-import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper, ContactInfo, ContactSection } from "../../styled";
+import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper, ContactInfo, ContactSection, PhoneIcon, MailIcon, PinIcon } from "../../styled";
 import { ReactComponent as OneSideIcon } from "./priceIcons/1sideIcon.svg";
 import { ReactComponent as TwoSideIcon } from "./priceIcons/2sidesIcon.svg";
 import { ReactComponent as RoundIcon } from "./priceIcons/RoundIcon.svg";
@@ -64,10 +64,10 @@ const PriceList = () => (
                     W celu rezerwacji rejsu prosimy o kontakt <br /> telefoniczny lub mailowy:
                 </ContactInfo>
                 <LinkWrapper>
-                    <AddressLink href="tel:+48509438985" title="telefon">tel: 509 438 985</AddressLink>
+                    <AddressLink href="tel:+48509438985" title="telefon"><PhoneIcon /> 509 438 985</AddressLink>
                 </LinkWrapper>
                 <LinkWrapper>
-                    <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com">biuro@zalewczorsztynski.com</AddressLink>
+                    <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com"><MailIcon />biuro@zalewczorsztynski.com</AddressLink>
                 </LinkWrapper>
             </ContactSection>
             <ContactSection>
@@ -77,7 +77,7 @@ const PriceList = () => (
                     ul. Wronina 1 <br />
                     34-440 Czorsztyn
                     <LinkWrapper>
-                        <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                        <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                     </LinkWrapper>
                 </ContactInfo>
             </ContactSection>
@@ -88,7 +88,7 @@ const PriceList = () => (
                     Osiedle Zamek 11 <br />
                     34-441 Niedzica
                     <LinkWrapper>
-                        <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Nawigacja z Google Maps</AddressLink>
+                        <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                     </LinkWrapper>
                 </ContactInfo>
             </ContactSection>

@@ -1,4 +1,4 @@
-import { AddressLink, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, SubHeader } from "../styled";
+import { AddressLink, BookingIcon, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, PhoneIcon, PinIcon, SubHeader } from "../styled";
 import {
     Section, Header, DescriptionSection, Description, ImageWrapper, Image
 } from "./styled";
@@ -32,10 +32,10 @@ const ContentSection = ({
                             zapraszamy do kontaktu telefonicznego lub na booking.com:
                         </ContactInfo>
                         <LinkWrapper>
-                            <AddressLink href="tel:+48509923730" title="telefon">tel: 509 923 730</AddressLink>
+                            <AddressLink href="tel:+48509923730" title="telefon"><PhoneIcon /> 509 923 730</AddressLink>
                         </LinkWrapper>
                         <LinkWrapper>
-                            <AddressLink href={linkHref} target={linkTarget} rel={linkRel}>{linkText}</AddressLink>
+                            <AddressLink href={linkHref} target={linkTarget} rel={linkRel}><BookingIcon />{linkText}</AddressLink>
                         </LinkWrapper>
                     </ContactSection>
                     <ContactSection>
@@ -45,7 +45,7 @@ const ContentSection = ({
                             Osiedle Zamek <br />
                             34-441 Niedzica
                             <LinkWrapper>
-                                <AddressLink href="https://maps.app.goo.gl/HRPCRyEyQMwYhMgv5" target="_blank" rel="noopener noreferrer" title="Link do Google Maps">Lokalizacja Google Maps</AddressLink>
+                                <AddressLink href="https://maps.app.goo.gl/HRPCRyEyQMwYhMgv5" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                             </LinkWrapper>
                         </ContactInfo>
                     </ContactSection>

@@ -55,7 +55,7 @@ export const BikeContent = styled.div``;
 
 export const Title = styled.h2`
 font-size: 30px;
-font-weight: 900;
+font-weight: bold;
 margin: 0;
 
 @media (max-width: 992px) {
@@ -87,8 +87,8 @@ export const ShowMoreButton = styled.button`
   background: white;
   color: black;
   padding: 30px 40px;
-  font-size: 25px;
-  font-weight: 900;
+  font-size: 23px;
+  font-weight: bold;
   border: 2px solid rgb(240, 240, 240);
   border-radius: 10px;
   cursor: pointer;
