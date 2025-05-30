@@ -1,4 +1,4 @@
-import { AddressLink, BookingIcon, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, PhoneIcon, PinIcon, SubHeader } from "../styled";
+import { AddressLink, BookingIcon, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, PhoneIcon, PinIcon, StatuteIcon, SubHeader } from "../styled";
 import {
     Section, Header, DescriptionSection, Description, ImageWrapper, Image
 } from "./styled";
@@ -36,6 +36,9 @@ const ContentSection = ({
                         </LinkWrapper>
                         <LinkWrapper>
                             <AddressLink href={linkHref} target={linkTarget} rel={linkRel}><BookingIcon />{linkText}</AddressLink>
+                        </LinkWrapper>
+                        <LinkWrapper>
+                            <AddressLink href="https://zalewczorsztynski.com/wp-content/uploads/2019/07/wiatr_i_woda_regulamin.pdf" target="_blank" rel="noopener noreferrer"><StatuteIcon />Regulamin wynajmu</AddressLink>
                         </LinkWrapper>
                     </ContactSection>
                     <ContactSection>

@@ -3,6 +3,7 @@ import { ReactComponent as PhoneIconLink } from "../SvgIcons/phone.svg";
 import { ReactComponent as MailIconLink } from "../SvgIcons/mail.svg";
 import { ReactComponent as PinIconLink } from "../SvgIcons/pin.svg";
 import { ReactComponent as BookingIconLink } from "../SvgIcons/booking.svg";
+import { ReactComponent as StatuteIconLink } from "../SvgIcons/statute.svg";
 
 export const Container = styled.div`
   max-width: 1440px;
@@ -221,6 +222,17 @@ export const PinIcon = styled(PinIconLink)`
 `;
 
 export const BookingIcon = styled(BookingIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+      @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+`;
+
+export const StatuteIcon = styled(StatuteIconLink)`
     width: 24px;
     height: 24px;
     transition: color 0.3s;
