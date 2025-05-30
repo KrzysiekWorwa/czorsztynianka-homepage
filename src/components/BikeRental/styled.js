@@ -58,7 +58,7 @@ font-size: 30px;
 font-weight: bold;
 margin: 0;
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
 font-size: 22px;
 }
 `;
@@ -68,14 +68,10 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1.4;
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
         font-size: 14px;
         text-align: left;
     }
-`;
-
-export const AnimatedWrapper = styled.div`
-  overflow: hidden;
 `;
 
 export const ButtonDiv = styled.div`

@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { Container, BikesSection, BikeImage, BikeContent, Title, Description, Header, AnimatedWrapper, ButtonDiv, ShowMoreButton } from "./styled";
+import { Container, BikesSection, BikeImage, BikeContent, Title, Description, Header, ButtonDiv, ShowMoreButton } from "./styled";
 import { bikeList } from "./bikesData";
 
 const useIsMobile = (maxWidth = 767) => {
@@ -43,21 +43,19 @@ const BikeRental = () => {
     return (
         <Container>
             <Header>Nasz sprzęt</Header>
-            <AnimatedWrapper>
-                {contentToShow.map((bike) =>
-                    <BikesSection key={bike.id}>
-                        <BikeImage src={bike.image} alt={bike.title} />
-                        <BikeContent>
-                            <Title>
-                                {bike.title}
-                            </Title>
-                            <Description>
-                                {bike.description}
-                            </Description>
-                        </BikeContent>
-                    </BikesSection>
-                )}
-            </AnimatedWrapper>
+            {contentToShow.map((bike) =>
+                <BikesSection key={bike.id}>
+                    <BikeImage src={bike.image} alt={bike.title} />
+                    <BikeContent>
+                        <Title>
+                            {bike.title}
+                        </Title>
+                        <Description>
+                            {bike.description}
+                        </Description>
+                    </BikeContent>
+                </BikesSection>
+            )}
             {bikeList.length > 3 && (
                 <ButtonDiv>
                     <ShowMoreButton onClick={handleToggle} ref={buttonRef}>
