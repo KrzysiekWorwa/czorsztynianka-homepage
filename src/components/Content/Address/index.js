@@ -62,7 +62,7 @@ const Address = () => (
         <MapContainer>
             <iframe
                 title="Google Maps"
-                src="https://www.google.com/maps/d/embed?mid=13k4xwGEBhTU3bLLLbFupekUsafs&ehbc=2E312F" width="640" height="480" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/d/u/0/embed?mid=1MSsHZcFj2lej3zLBJaKp4IMEOSX9vps&ehbc=2E312F&noprof=1" width="640" height="480" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"
                 async
                 defer>
             </iframe>
