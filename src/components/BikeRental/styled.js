@@ -97,6 +97,7 @@ export const ShowMoreButton = styled.button`
 
     &:hover {
         border-color: rgba(3, 102, 214, 0.2);
+        color: rgb(68, 68, 68);
     }
 
     @media (max-width: 992px) {
