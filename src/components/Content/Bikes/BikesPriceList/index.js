@@ -33,19 +33,19 @@ const BikesPriceList = () => (
                 <TableRow>
                     <TableCell data-label="Typ sprzętu">Przyczepka</TableCell>
                     <TableCell data-label="Ikona"><TrailerIcon /></TableCell>
-                    <TableCell data-label="Do 3 godzin">60 PLN</TableCell>
+                    <TableCell data-label="Do 3 godzin">-</TableCell>
                     <TableCell data-label="Cały dzień">60 PLN</TableCell>
                 </TableRow>
                 <TableRow>
                     <TableCell data-label="Typ sprzętu">Fotelik dziecięcy</TableCell>
                     <TableCell data-label="Ikona"><SeatIcon /></TableCell>
-                    <TableCell data-label="Do 3 godzin">30 PLN</TableCell>
+                    <TableCell data-label="Do 3 godzin">-</TableCell>
                     <TableCell data-label="Cały dzień">30 PLN</TableCell>
                 </TableRow>
                 <TableRow>
                     <TableCell data-label="Typ sprzętu">Kask</TableCell>
                     <TableCell data-label="Ikona"><HelmetIcon /></TableCell>
-                    <TableCell data-label="Do 3 godzin">10 PLN</TableCell>
+                    <TableCell data-label="Do 3 godzin">-</TableCell>
                     <TableCell data-label="Cały dzień">10 PLN</TableCell>
                 </TableRow>
             </tbody>

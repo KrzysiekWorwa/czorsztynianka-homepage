@@ -14,7 +14,7 @@ const PriceList = () => (
                     <TableHeader></TableHeader>
                     <TableHeader></TableHeader>
                     <TableHeader>Bilet normalny</TableHeader>
-                    <TableHeader>Bilet ulgowy do lat 10</TableHeader>
+                    <TableHeader>Bilet ulgowy do lat 15</TableHeader>
                 </TableRow>
             </thead>
             <tbody>
@@ -40,18 +40,19 @@ const PriceList = () => (
                     <TableCell data-label="Typ rejsu">Pasażer z rowerem</TableCell>
                     <TableCell data-label="Ikona"><BikeIcon /></TableCell>
                     <TableCell data-label="Bilet normalny">27 PLN</TableCell>
-                    <TableCell data-label="Bilet ulgowy">Dzieci do lat 4 <strong>bezpłatnie</strong></TableCell>
+                    <TableCell data-label="Bilet ulgowy">-</TableCell>
                 </TableRow>
                 <TableRow>
                     <TableCell data-label="Typ rejsu">Przewóz przyczepki rowerowej</TableCell>
                     <TableCell data-label="Ikona"><TrailerIcon /></TableCell>
                     <TableCell data-label="Bilet normalny">15 PLN</TableCell>
-                    <TableCell data-label="Bilet ulgowy">15 PLN</TableCell>
+                    <TableCell data-label="Bilet ulgowy">-</TableCell>
                 </TableRow>
             </tbody>
         </StyledTable>
         <Info>
-            <strong>Dla grup zorganizowanych (szkolnych, firmowych, wycieczek)</strong> możliwość rezerwacji rejsu.<br />
+           <strong> Dzieci do lat 4 bezpłatnie</strong> <br />
+            Dla grup zorganizowanych (szkolnych, firmowych, wycieczek) możliwość rezerwacji rejsu.<br />
             W przypadku grup zorganizowanych możliwość negocjacji ceny. <br />
             Wystawiamy faktury VAT. <br />
         </Info>
