@@ -24,16 +24,16 @@ const Gallery = ({ title, images }) => {
 
     const isHouseGallery = title.toLowerCase().includes("domków");
 
-    const firstHouse = images.slice(0, 10);
-    const secondHouse = images.slice(10);
+    const house = images.slice(0, 4)
+    const firstHouse = images.slice(4, 9);
+    const secondHouse = images.slice(9);
 
     if (isHouseGallery) {
         return (
             <GalleryWrapper>
                 <GalleryHeader>{title}</GalleryHeader>
-                <SubHeader>Zdjęcia pierwszego domku</SubHeader>
                 <GalleryGrid>
-                    {firstHouse.map((img, index) => (
+                    {house.map((img, index) => (
                         <GalleryImage
                             key={index}
                             src={img}
@@ -44,26 +44,43 @@ const Gallery = ({ title, images }) => {
                     ))}
                 </GalleryGrid>
 
-                {showAll && secondHouse.length > 0 && (
+                {showAll && firstHouse.length > 0 && (
                     <>
-                        <SubHeader>Zdjęcia drugiego domku</SubHeader>
+                        <SubHeader>Pierwszy domek</SubHeader>
                         <GalleryGrid>
-                            {secondHouse.map((img, index) => (
+                            {firstHouse.map((img, index) => (
                                 <GalleryImage
-                                    key={index + 10}
+                                    key={index + 4}
                                     src={img}
                                     loading="lazy"
-                                    alt={`domki ${index + 10}`}
-                                    onClick={() => setIndex(index + 10)}
+                                    alt={`domki ${index + 4}`}
+                                    onClick={() => setIndex(index + 4)}
                                 />
                             ))}
                         </GalleryGrid>
                     </>
                 )}
-                {images.length > 10 && (
+
+                {showAll && secondHouse.length > 0 && (
+                    <>
+                        <SubHeader>Drugi domek</SubHeader>
+                        <GalleryGrid>
+                            {secondHouse.map((img, index) => (
+                                <GalleryImage
+                                    key={index + 9}
+                                    src={img}
+                                    loading="lazy"
+                                    alt={`domki ${index + 9}`}
+                                    onClick={() => setIndex(index + 9)}
+                                />
+                            ))}
+                        </GalleryGrid>
+                    </>
+                )}
+                {(firstHouse.length > 0 || secondHouse.length > 0) && (
                     <ButtonDiv>
                         <ShowMoreButton onClick={handleToggle} ref={buttonRef}>
-                            {showAll ? "Ukryj więcej zdjęć" : "Pokaż zdjęcia drugiego domku"}
+                            {showAll ? "Ukryj więcej zdjęć" : "Pokaż więcej zdjęć"}
                         </ShowMoreButton>
                     </ButtonDiv>
                 )}
