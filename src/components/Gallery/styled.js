@@ -73,3 +73,12 @@ export const ShowMoreButton = styled.button`
         font-size: 22px;
     }
 `;
+
+export const SubHeader = styled.h3`
+    font-size: 24px;
+    text-align: left;
+    
+        @media (max-width: 767px) {
+        font-size: 18px;
+}
+`;
