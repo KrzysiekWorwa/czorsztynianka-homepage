@@ -14,8 +14,8 @@ const Address = () => (
                 <Info>
                     P.H.U. “Jędruś” <br />
                     Rejsy po Jeziorze Czorsztyńskim <br />
-                    34-440 Czorsztyn <br />
                     ul. Krótka 6 <br />
+                    34-440 Czorsztyn <br />
                 </Info>
                 <LinkWrapper>
                     <AddressLink href="tel:+48509438985" title="telefon"><PhoneIcon /> 509 438 985</AddressLink>
