@@ -12,8 +12,8 @@ const Address = () => (
                     Dane kontaktowe
                 </AddressSubHeader>
                 <Info>
-                    P.H.U. “Jędruś” <br />
-                    Rejsy po Jeziorze Czorsztyńskim <br />
+                    P.H.U. “Jędruś” Anna Wojtaszek<br />
+                    NIP: 7351002376 <br />
                     ul. Krótka 6 <br />
                     34-440 Czorsztyn <br />
                 </Info>
