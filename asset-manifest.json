@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/czorsztynianka-homepage/static/css/main.7a7431fa.css",
-    "main.js": "/czorsztynianka-homepage/static/js/main.d3e49b46.js",
+    "main.js": "/czorsztynianka-homepage/static/js/main.7c6cdcf5.js",
     "static/js/453.4f50ac07.chunk.js": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js",
     "static/media/logo-ekomuzeum.jpeg": "/czorsztynianka-homepage/static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
-    "static/media/Baner.jpg": "/czorsztynianka-homepage/static/media/Baner.5855ba6a2e3557122224.jpg",
-    "static/media/rowery.webp": "/czorsztynianka-homepage/static/media/rowery.0e4a168826aa5c38c963.webp",
     "static/media/ipa-nowy-targ.png": "/czorsztynianka-homepage/static/media/ipa-nowy-targ.b933ff022e7e2668a78e.png",
+    "static/media/bikes.webp": "/czorsztynianka-homepage/static/media/bikes.2b51ad1faa5fc80b4727.webp",
     "static/media/DSC7702.webp": "/czorsztynianka-homepage/static/media/DSC7702.75240a9dc1acd1a407e0.webp",
     "static/media/DSC7685.webp": "/czorsztynianka-homepage/static/media/DSC7685.70cc5484eb51c742e6b9.webp",
     "static/media/domek.webp": "/czorsztynianka-homepage/static/media/domek.d836022ad2fa9268f4c1.webp",
@@ -14,6 +13,7 @@
     "static/media/20240908_114128.webp": "/czorsztynianka-homepage/static/media/20240908_114128.a56ad83ce33198fb0930.webp",
     "static/media/Przystan czorsztyn dron_42.webp": "/czorsztynianka-homepage/static/media/Przystan czorsztyn dron_42.7f14b645e5c1c1ab5711.webp",
     "static/media/20240908_095405.webp": "/czorsztynianka-homepage/static/media/20240908_095405.8e83dc653b7145444c62.webp",
+    "static/media/New-logo.webp": "/czorsztynianka-homepage/static/media/New-logo.5770be4e9343f0553953.webp",
     "static/media/Przystan czorsztyn dron_87.webp": "/czorsztynianka-homepage/static/media/Przystan czorsztyn dron_87.d7736a83c34d59705fcf.webp",
     "static/media/DSC_8866-1.webp": "/czorsztynianka-homepage/static/media/DSC_8866-1.14740886a62e461977c6.webp",
     "static/media/DSC7692.webp": "/czorsztynianka-homepage/static/media/DSC7692.50fa9cb3b15a57aacef7.webp",
@@ -42,7 +42,6 @@
     "static/media/polisport-fotelik.webp": "/czorsztynianka-homepage/static/media/polisport-fotelik.0ace72650480de5cfec9.webp",
     "static/media/przyczepka-rowerowa-hamax-ixplorer.webp": "/czorsztynianka-homepage/static/media/przyczepka-rowerowa-hamax-ixplorer.8b4fbe50f87024228ce7.webp",
     "static/media/bochniak-logo.jpg": "/czorsztynianka-homepage/static/media/bochniak-logo.a61ec1b88bbea5f65d25.jpg",
-    "static/media/logo-chocholow.png": "/czorsztynianka-homepage/static/media/logo-chocholow.eeea59ab10ae835410b5.png",
     "static/media/bicycle-54.svg": "/czorsztynianka-homepage/static/media/bicycle-54.9e2a95417dc898821d8387493b87300d.svg",
     "static/media/instagramIcon.svg": "/czorsztynianka-homepage/static/media/instagramIcon.7bad0c3cde2835fa701a1538d5bc741b.svg",
     "static/media/bicycle-electric-svgrepo-com.svg": "/czorsztynianka-homepage/static/media/bicycle-electric-svgrepo-com.effe5cdcb7321624ede29330a9622255.svg",
@@ -61,11 +60,11 @@
     "static/media/1sideIcon.svg": "/czorsztynianka-homepage/static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "/czorsztynianka-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "/czorsztynianka-homepage/static/css/main.7a7431fa.css.map",
-    "main.d3e49b46.js.map": "/czorsztynianka-homepage/static/js/main.d3e49b46.js.map",
+    "main.7c6cdcf5.js.map": "/czorsztynianka-homepage/static/js/main.7c6cdcf5.js.map",
     "453.4f50ac07.chunk.js.map": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.d3e49b46.js"
+    "static/js/main.7c6cdcf5.js"
   ]
 }
