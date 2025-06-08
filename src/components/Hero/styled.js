@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BannerImage from "./Baner.jpg";
+import BannerImage from "./New-logo.webp";
 
 export const HeroSection = styled.section`
   position: relative;
@@ -7,7 +7,7 @@ export const HeroSection = styled.section`
   width: 100%;
   background-image: url(${BannerImage});
   background-size: cover;
- background-position: 50% 35%;
+ background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;

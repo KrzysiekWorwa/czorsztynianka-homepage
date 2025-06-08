@@ -1,6 +1,5 @@
 import IpaLogo from "./Logos/ipa-nowy-targ.png";
 import BochniakLogo from "./Logos/bochniak-logo.jpg";
-import TermyLogo from "./Logos/logo-chocholow.png";
 import ZajazdLogo from "./Logos/zajazd_czorsztynski.jpg";
 import ZnaczkiLogo from "./Logos/znaczki-logojpg.jpg";
 import CzteryPory from "./Logos/logo-cztery.png";
@@ -12,10 +11,6 @@ export const partners = [
     {
         logo: EkoLogo,
         link: "https://sprezyna.org/ekomuzeum-dziedziny-dunajca/histora-wspolpracy-co-to-jest-ekomuzeum"
-    },
-    {
-        logo: TermyLogo,
-        link: "https://www.chocholowskietermy.pl/"
     },
     {
         logo: BochniakLogo,
