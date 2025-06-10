@@ -62,7 +62,7 @@ export const Description = styled.p`
   text-align: justify;
 
   @media (max-width: 767px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 `;
 
@@ -106,7 +106,7 @@ export const ListTitle = styled.h3`
   font-weight: bold;
   margin-bottom: 5px;
       @media (max-width: 767px) {
-        font-size: 14px;
+        font-size: 16px;
   }
 `;
 
@@ -116,7 +116,7 @@ text-align: left;
   font-size: 18px;
   line-height: 1.5;
     @media (max-width: 767px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 `;
 

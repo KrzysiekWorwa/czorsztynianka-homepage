@@ -59,6 +59,6 @@ export const Description = styled.p`
 
     @media (max-width: 767px) {
         margin-top: 16px;
-        font-size: 14px;
+        font-size: 16px;
     }
 `;

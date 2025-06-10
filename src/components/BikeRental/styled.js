@@ -69,7 +69,7 @@ font-weight: 400;
 line-height: 1.4;
 
 @media (max-width: 767px) {
-        font-size: 14px;
+        font-size: 16px;
         text-align: left;
     }
 `;

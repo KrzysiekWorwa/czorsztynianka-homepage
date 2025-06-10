@@ -76,7 +76,7 @@ export const TableRow = styled.tr`
     border: 2px solid rgb(241, 241, 241);
     border-radius: 10px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 16px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
   }
 `;
@@ -142,7 +142,7 @@ export const Info = styled.div`
   text-align: center;
 
   @media (max-width: 767px) {
-    font-size: 14px;
+    font-size: 16px;
   }
 `;
 
@@ -167,7 +167,7 @@ export const ContactInfo = styled.div`
     line-height: 1.4;
 
     @media (max-width: 767px) {
-    font-size: 14px;
+    font-size: 16px;
 }
 `;
 
