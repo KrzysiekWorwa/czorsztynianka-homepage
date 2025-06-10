@@ -94,3 +94,47 @@ export const Image = styled.img`
     display: none;
   }
 `;
+export const CruiseWrapper = styled.div`
+  text-align: left;
+        @media (max-width: 767px) {
+        text-align: center;
+  }
+`;
+
+export const ListTitle = styled.h3`
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+      @media (max-width: 767px) {
+        font-size: 14px;
+  }
+`;
+
+export const StyledList = styled.ul`
+text-align: left;
+  list-style: disc;
+  font-size: 18px;
+  line-height: 1.5;
+    @media (max-width: 767px) {
+    font-size: 14px;
+  }
+`;
+
+export const ListItem = styled.li`
+  margin-bottom: 5px;
+`;
+
+export const BoldText = styled.span`
+  font-weight: bold;
+`;
+export const SocialLink = styled.a`
+
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+    color: #93A981;
+
+    &:hover {
+        color: #252525;
+    }
+ `;
