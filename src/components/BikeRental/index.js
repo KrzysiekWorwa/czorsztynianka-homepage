@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { Container, BikesSection, BikeImage, BikeContent, Title, Description, Header, ButtonDiv, ShowMoreButton } from "./styled";
+import { Container, BikesSection, BikeImage, BikeContent, Title, Description, Header, ButtonDiv, ShowMoreButton, PriceTag } from "./styled";
 import { bikeList } from "./bikesData";
 
 const useIsMobile = (maxWidth = 767) => {
@@ -53,6 +53,7 @@ const BikeRental = () => {
                         <Description>
                             {bike.description}
                         </Description>
+                        <PriceTag>{bike.price}</PriceTag>
                     </BikeContent>
                 </BikesSection>
             )}

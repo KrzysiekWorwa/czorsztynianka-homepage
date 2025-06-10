@@ -112,15 +112,23 @@ export const TableCell = styled.td`
       white-space: nowrap;
     }
 
-       &[data-label="Ikona"] {
-      text-align: center;
-      padding-left: 0;
+      &[data-label="Ikona"] {
+        text-align: center;
+        padding-left: 0;
 
-      &::before {
-        content: none;
+        &::before {
+          content: none;
       }
     }
-  }
+
+      &[data-label="brak"] {
+        display: none;
+
+        &::before {
+          content: none;
+      }
+    }
+    }
 `;
 export const ContactSection = styled.address`
     font-style: normal;

@@ -101,3 +101,11 @@ export const ShowMoreButton = styled.button`
         font-size: 22px;
     }
 `;
+export const PriceTag = styled.div`
+  font-size: 20px;
+  font-weight: bold;
+  color: #93A981;
+      @media (max-width: 992px) {
+        font-size: 16px;
+    }
+`;

@@ -39,19 +39,19 @@ const PriceList = () => (
                 <TableRow>
                     <TableCell data-label="Typ rejsu">Pasażer z rowerem</TableCell>
                     <TableCell data-label="Ikona"><BikeIcon /></TableCell>
-                    <TableCell data-label="Bilet normalny">27 PLN</TableCell>
-                    <TableCell data-label="Bilet ulgowy">-</TableCell>
+                    <TableCell data-label="Cena biletu">27 PLN</TableCell>
+                    <TableCell data-label="brak">-</TableCell>
                 </TableRow>
                 <TableRow>
                     <TableCell data-label="Typ rejsu">Przewóz przyczepki rowerowej</TableCell>
                     <TableCell data-label="Ikona"><TrailerIcon /></TableCell>
-                    <TableCell data-label="Bilet normalny">15 PLN</TableCell>
-                    <TableCell data-label="Bilet ulgowy">-</TableCell>
+                    <TableCell data-label="Cena biletu">15 PLN</TableCell>
+                    <TableCell data-label="brak">-</TableCell>
                 </TableRow>
             </tbody>
         </StyledTable>
         <Info>
-           <strong> Dzieci do lat 4 bezpłatnie</strong> <br />
+            <strong> Dzieci do lat 4 bezpłatnie</strong> <br />
             Dla grup zorganizowanych (szkolnych, firmowych, wycieczek) możliwość rezerwacji rejsu.<br />
             W przypadku grup zorganizowanych możliwość negocjacji ceny. <br />
             Wystawiamy faktury VAT. <br />
@@ -85,7 +85,7 @@ const PriceList = () => (
             <ContactSection>
                 <SubHeader>Nasza lokalizacja w Niedzicy</SubHeader>
                 <ContactInfo>
-                    Pomost dla gondoli Niedzica <br />
+                    Pomost Gondoli Czorsztynianka<br />
                     Osiedle Zamek 11 <br />
                     34-441 Niedzica
                     <LinkWrapper>
