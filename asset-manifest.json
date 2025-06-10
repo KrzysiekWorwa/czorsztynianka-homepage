@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/czorsztynianka-homepage/static/css/main.7a7431fa.css",
-    "main.js": "/czorsztynianka-homepage/static/js/main.0ca5053d.js",
+    "main.js": "/czorsztynianka-homepage/static/js/main.2c95a530.js",
     "static/js/453.4f50ac07.chunk.js": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js",
     "static/media/logo-ekomuzeum.jpeg": "/czorsztynianka-homepage/static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
     "static/media/baner-1440.webp": "/czorsztynianka-homepage/static/media/baner-1440.804c71dee9d230f3d82a.webp",
@@ -61,11 +61,11 @@
     "static/media/1sideIcon.svg": "/czorsztynianka-homepage/static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "/czorsztynianka-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "/czorsztynianka-homepage/static/css/main.7a7431fa.css.map",
-    "main.0ca5053d.js.map": "/czorsztynianka-homepage/static/js/main.0ca5053d.js.map",
+    "main.2c95a530.js.map": "/czorsztynianka-homepage/static/js/main.2c95a530.js.map",
     "453.4f50ac07.chunk.js.map": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.0ca5053d.js"
+    "static/js/main.2c95a530.js"
   ]
 }
