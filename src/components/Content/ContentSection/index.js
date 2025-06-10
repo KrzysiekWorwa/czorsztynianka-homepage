@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
-import { AddressLink, BookingIcon, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, PhoneIcon, PinIcon, StatuteIcon, SubHeader } from "../styled";
+import { AddressLink, BookingIcon, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, PhoneIcon, PinIcon, StatuteIcon } from "../styled";
 import {
-    Section, Header, DescriptionSection, Description, ImageWrapper, Image, CruiseWrapper, ListTitle, StyledList, ListItem, BoldText, SocialLink
+    Section, Header, DescriptionSection, Description, ImageWrapper, Image, CruiseWrapper, SubHeader, ListTitle, StyledList, ListItem, BoldText, SocialLink
 } from "./styled";
 
 const ContentSection = ({

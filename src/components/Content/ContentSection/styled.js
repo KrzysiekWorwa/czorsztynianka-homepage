@@ -100,11 +100,20 @@ export const CruiseWrapper = styled.div`
         text-align: center;
   }
 `;
+export const SubHeader = styled.h3`
+    font-size: 30px;
+    text-align: center;
+    
+        @media (max-width: 767px) {
+        font-size: 18px;
+        margin: 25px 0;
+}
+`;
 
 export const ListTitle = styled.h3`
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin: 25px 0;
       @media (max-width: 767px) {
         font-size: 16px;
   }
