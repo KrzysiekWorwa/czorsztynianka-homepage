@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/czorsztynianka-homepage/static/css/main.7a7431fa.css",
-    "main.js": "/czorsztynianka-homepage/static/js/main.7c6cdcf5.js",
+    "main.js": "/czorsztynianka-homepage/static/js/main.a9975081.js",
     "static/js/453.4f50ac07.chunk.js": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js",
     "static/media/logo-ekomuzeum.jpeg": "/czorsztynianka-homepage/static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
+    "static/media/baner-1440.webp": "/czorsztynianka-homepage/static/media/baner-1440.6f1f740da1886fc2bdb5.webp",
     "static/media/ipa-nowy-targ.png": "/czorsztynianka-homepage/static/media/ipa-nowy-targ.b933ff022e7e2668a78e.png",
     "static/media/bikes.webp": "/czorsztynianka-homepage/static/media/bikes.2b51ad1faa5fc80b4727.webp",
     "static/media/DSC7702.webp": "/czorsztynianka-homepage/static/media/DSC7702.75240a9dc1acd1a407e0.webp",
+    "static/media/baner-1080p.webp": "/czorsztynianka-homepage/static/media/baner-1080p.ecb78c611dc0bca9a8c6.webp",
     "static/media/DSC7685.webp": "/czorsztynianka-homepage/static/media/DSC7685.70cc5484eb51c742e6b9.webp",
     "static/media/domek.webp": "/czorsztynianka-homepage/static/media/domek.d836022ad2fa9268f4c1.webp",
     "static/media/20240511_160759.webp": "/czorsztynianka-homepage/static/media/20240511_160759.f14f934083c179671489.webp",
     "static/media/20240908_114128.webp": "/czorsztynianka-homepage/static/media/20240908_114128.a56ad83ce33198fb0930.webp",
     "static/media/Przystan czorsztyn dron_42.webp": "/czorsztynianka-homepage/static/media/Przystan czorsztyn dron_42.7f14b645e5c1c1ab5711.webp",
     "static/media/20240908_095405.webp": "/czorsztynianka-homepage/static/media/20240908_095405.8e83dc653b7145444c62.webp",
-    "static/media/New-logo.webp": "/czorsztynianka-homepage/static/media/New-logo.5770be4e9343f0553953.webp",
     "static/media/Przystan czorsztyn dron_87.webp": "/czorsztynianka-homepage/static/media/Przystan czorsztyn dron_87.d7736a83c34d59705fcf.webp",
     "static/media/DSC_8866-1.webp": "/czorsztynianka-homepage/static/media/DSC_8866-1.14740886a62e461977c6.webp",
     "static/media/DSC7692.webp": "/czorsztynianka-homepage/static/media/DSC7692.50fa9cb3b15a57aacef7.webp",
@@ -60,11 +61,11 @@
     "static/media/1sideIcon.svg": "/czorsztynianka-homepage/static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "/czorsztynianka-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "/czorsztynianka-homepage/static/css/main.7a7431fa.css.map",
-    "main.7c6cdcf5.js.map": "/czorsztynianka-homepage/static/js/main.7c6cdcf5.js.map",
+    "main.a9975081.js.map": "/czorsztynianka-homepage/static/js/main.a9975081.js.map",
     "453.4f50ac07.chunk.js.map": "/czorsztynianka-homepage/static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.7c6cdcf5.js"
+    "static/js/main.a9975081.js"
   ]
 }
