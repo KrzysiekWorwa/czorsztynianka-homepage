@@ -168,6 +168,7 @@ export const ContactWrapper = styled.div`
   @media (max-width: 767px) {
     flex-direction: column;
     gap:30px;
+    padding: 20px 0;
   }
 `;
 

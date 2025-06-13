@@ -8,47 +8,46 @@ const Houses = () => {
 
     return (
         <CruiseWrapper>
-            <CruiseSubHeader>Wyposażenie i udogodnienia Domków</CruiseSubHeader>
-            <Description>
-                Każdy z naszych dwóch domków, o przytulnym metrażu 35 m², został zaprojektowany tak, aby zapewnić maksymalny komfort i funkcjonalność dla naszych Gości. To w pełni umeblowane i nowocześnie wyposażone przestrzenie, gotowe na przyjęcie do 6 osób.
-            </Description>
-            <ListTitle>Każdy domek oferuje:</ListTitle>
-            <StyledList>
-                <ListItem>
-                    <BoldText>Przestronny Salon z aneksem kuchennym: </BoldText>
-                    Serce domku, idealne miejsce na wspólne posiłki i wieczorne rozmowy. Znajdziesz tu wygodną część wypoczynkową oraz telewizor, zapewniający rozrywkę po dniu pełnym wrażeń.
-                </ListItem>
-                <ListItem>
-                    <BoldText>W pełni wyposażoną Kuchnię: </BoldText>
-                    Gotowanie stanie się przyjemnością dzięki kompletnemu wyposażeniu: lodówce, mikrofalówce, płycie indukcyjnej, czajnikowi, a także wszelkim niezbędnym naczyniom do gotowania i pełnej zastawie stołowej dla 6 osób.
-                </ListItem>
-                <ListItem>
-                    <BoldText>Dwie Przytulne Sypialnie: </BoldText>
-                    Idealne na odpoczynek po dniu pełnym przygód, zapewniające komfortowy sen.
-                </ListItem>
-                <ListItem>
-                    <BoldText>Nowoczesną Łazienkę z Prysznicem: </BoldText>
-                    Estetyczna i funkcjonalna, z dbałością o każdy detal.
-                </ListItem>
-                <ListItem>
-                    <BoldText>Klimatyzację: </BoldText>
-                    Gwarantuje przyjemną temperaturę nawet w upalne dni, zapewniając komfortowy wypoczynek.
-                </ListItem>
-                <ListItem>
-                    <BoldText>Darmowe Wi-Fi: </BoldText>
-                    Bądź w kontakcie ze światem lub dziel się swoimi wspomnieniami z wakacji bez ograniczeń.
-                </ListItem>
-                <ListItem>
-                    <BoldText>Bezpłatny parking: </BoldText>
-                    Prywatny parking z bramą znajdujący się na ogrodzonym terenie domków.
-                </ListItem>
-                <ListItem>
-                    <BoldText>Udogodnienia: </BoldText>
-                    Trampolina dla dzieci oraz miejsce do grillowania obok domku.
-                </ListItem>
-            </StyledList>
-
             <ShowMoreContent $isVisible={showAll}>
+                <CruiseSubHeader>Wyposażenie i udogodnienia Domków</CruiseSubHeader>
+                <Description>
+                    Każdy z naszych dwóch domków, o przytulnym metrażu 35 m², został zaprojektowany tak, aby zapewnić maksymalny komfort i funkcjonalność dla naszych Gości. To w pełni umeblowane i nowocześnie wyposażone przestrzenie, gotowe na przyjęcie do 6 osób.
+                </Description>
+                <ListTitle>Każdy domek oferuje:</ListTitle>
+                <StyledList>
+                    <ListItem>
+                        <BoldText>Przestronny Salon z aneksem kuchennym: </BoldText>
+                        Serce domku, idealne miejsce na wspólne posiłki i wieczorne rozmowy. Znajdziesz tu wygodną część wypoczynkową oraz telewizor, zapewniający rozrywkę po dniu pełnym wrażeń.
+                    </ListItem>
+                    <ListItem>
+                        <BoldText>W pełni wyposażoną Kuchnię: </BoldText>
+                        Gotowanie stanie się przyjemnością dzięki kompletnemu wyposażeniu: lodówce, mikrofalówce, płycie indukcyjnej, czajnikowi, a także wszelkim niezbędnym naczyniom do gotowania i pełnej zastawie stołowej dla 6 osób.
+                    </ListItem>
+                    <ListItem>
+                        <BoldText>Dwie Przytulne Sypialnie: </BoldText>
+                        Idealne na odpoczynek po dniu pełnym przygód, zapewniające komfortowy sen.
+                    </ListItem>
+                    <ListItem>
+                        <BoldText>Nowoczesną Łazienkę z Prysznicem: </BoldText>
+                        Estetyczna i funkcjonalna, z dbałością o każdy detal.
+                    </ListItem>
+                    <ListItem>
+                        <BoldText>Klimatyzację: </BoldText>
+                        Gwarantuje przyjemną temperaturę nawet w upalne dni, zapewniając komfortowy wypoczynek.
+                    </ListItem>
+                    <ListItem>
+                        <BoldText>Darmowe Wi-Fi: </BoldText>
+                        Bądź w kontakcie ze światem lub dziel się swoimi wspomnieniami z wakacji bez ograniczeń.
+                    </ListItem>
+                    <ListItem>
+                        <BoldText>Bezpłatny parking: </BoldText>
+                        Prywatny parking z bramą znajdujący się na ogrodzonym terenie domków.
+                    </ListItem>
+                    <ListItem>
+                        <BoldText>Udogodnienia: </BoldText>
+                        Trampolina dla dzieci oraz miejsce do grillowania obok domku.
+                    </ListItem>
+                </StyledList>
                 <CruiseSubHeader>Twój Prywatny Taras z Widokiem</CruiseSubHeader>
                 <Description>
                     Do każdego domku przynależy przestronny taras, wyposażony w komfortowe meble wypoczynkowe. To idealne miejsce na poranną kawę z widokiem na jezioro, relaks z książką w ciągu dnia czy wieczorne biesiadowanie pod gwiazdami. Ciesz się świeżym powietrzem i urokami otaczającej przyrody, mając jednocześnie prywatną przestrzeń tylko dla siebie.

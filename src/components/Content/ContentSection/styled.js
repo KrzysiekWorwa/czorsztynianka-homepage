@@ -56,6 +56,7 @@ export const DescriptionSection = styled.div`
 `;
 
 export const ImageWrapper = styled.div`
+  margin-top: 25px;
   position: relative;
   width: 100%;
   order: 3;
