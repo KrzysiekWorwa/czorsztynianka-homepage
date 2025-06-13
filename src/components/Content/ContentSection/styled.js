@@ -55,17 +55,6 @@ export const DescriptionSection = styled.div`
   order: 2;
 `;
 
-export const Description = styled.p`
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 16px;
-  text-align: justify;
-
-  @media (max-width: 767px) {
-    font-size: 16px;
-  }
-`;
-
 export const ImageWrapper = styled.div`
   position: relative;
   width: 100%;
@@ -94,56 +83,3 @@ export const Image = styled.img`
     display: none;
   }
 `;
-export const CruiseWrapper = styled.div`
-  text-align: left;
-        @media (max-width: 767px) {
-        text-align: center;
-  }
-`;
-export const SubHeader = styled.h3`
-    font-size: 30px;
-    text-align: center;
-    
-        @media (max-width: 767px) {
-        font-size: 18px;
-        margin: 25px 0;
-}
-`;
-
-export const ListTitle = styled.h3`
-  font-size: 18px;
-  font-weight: bold;
-  margin: 25px 0;
-      @media (max-width: 767px) {
-        font-size: 16px;
-  }
-`;
-
-export const StyledList = styled.ul`
-text-align: left;
-  list-style: disc;
-  font-size: 18px;
-  line-height: 1.5;
-    @media (max-width: 767px) {
-    font-size: 16px;
-  }
-`;
-
-export const ListItem = styled.li`
-  margin-bottom: 5px;
-`;
-
-export const BoldText = styled.span`
-  font-weight: bold;
-`;
-export const SocialLink = styled.a`
-
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s;
-    color: #93A981;
-
-    &:hover {
-        color: #252525;
-    }
- `;
