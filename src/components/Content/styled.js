@@ -315,3 +315,43 @@ export const SocialLink = styled.a`
         color: #252525;
     }
  `;
+
+export const ButtonDiv = styled.div`
+  text-align: center;
+  margin-top: 20px;
+
+        @media (min-width: 768px) {
+        display: none;
+        }
+`;
+
+export const ShowMoreButton = styled.button`
+  display: none;
+  background: white;
+  color: black;
+  padding: 30px 40px;
+  font-size: 23px;
+  font-weight: bold;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+    &:hover {
+        border-color: rgba(3, 102, 214, 0.2);
+        color: rgb(68, 68, 68);
+    }
+
+      @media (max-width: 768px) {
+        display: inline-block;
+        padding: 20px;
+        font-size: 22px;
+    }
+`;
+
+export const ShowMoreContent = styled.div`
+  @media (max-width: 768px) {
+    display: ${({ $isVisible }) => ($isVisible ? "block" : "none")};
+  }
+`;
