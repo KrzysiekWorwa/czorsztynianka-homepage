@@ -1,4 +1,5 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
+import { useShowMore } from "../../hooks/useShowMore";
 import { Container, BikesSection, BikeImage, BikeContent, Title, Description, Header, ButtonDiv, ShowMoreButton, PriceTag } from "./styled";
 import { bikeList } from "./bikesData";
 
@@ -19,20 +20,7 @@ const useIsMobile = (maxWidth = 767) => {
 const BikeRental = () => {
 
     const isMobile = useIsMobile();
-    const [showAll, setShowAll] = useState(false);
-    const buttonRef = useRef(null);
-    const prevShowAllRef = useRef(showAll);
-
-    useEffect(() => {
-        if (prevShowAllRef.current === true && showAll === false && buttonRef.current) {
-            buttonRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
-        }
-        prevShowAllRef.current = showAll;
-    }, [showAll]);
-
-    const handleToggle = () => {
-        setShowAll(prev => !prev);
-    };
+    const { showAll, handleToggle, buttonRef } = useShowMore();
 
     const contentToShow = showAll
         ? bikeList
