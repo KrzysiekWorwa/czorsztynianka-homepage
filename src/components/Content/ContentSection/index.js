@@ -1,3 +1,4 @@
+import Bikes from "../Bikes";
 import Cruises from "../Cruises";
 import Houses from "../Houses";
 import { Description, AddressLink, BookingIcon, ContactInfo, ContactSection, ContactWrapper, LinkWrapper, PhoneIcon, PinIcon, StatuteIcon, SubHeader } from "../styled";
@@ -18,6 +19,7 @@ const ContentSection = ({
 }) => {
 
     const isCruiseSection = title.toLowerCase().includes("rejsy");
+    const isBikeSection = title.toLowerCase().includes("rower");
 
     return (
         <Section id={id}>
@@ -63,6 +65,7 @@ const ContentSection = ({
                     </>
                 )}
                 {isCruiseSection && <Cruises />}
+                {isBikeSection && <Bikes />}
             </DescriptionSection>
             <ImageWrapper $imageSrc={imageSrc}>
                 <Image src={imageSrc} alt={imageAlt} />
@@ -70,7 +73,6 @@ const ContentSection = ({
             </ImageWrapper>
         </Section >
     );
-
 };
 
 export default ContentSection;

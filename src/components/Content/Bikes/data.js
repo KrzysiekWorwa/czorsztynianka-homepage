@@ -3,10 +3,7 @@ import bikesImage from "./images/bikes.webp"
 export const bikesData = {
     id: "rowery",
     title: `Wypożyczalnia rowerów "Velo Czorsztyn"`,
-    description: ` Zapraszamy do naszej wypożyczalni "Velo Czorsztyn" znajdującej się na naszej przystani gondoli.
-               Posiadamy duży wybór rowerów tradycyjnych, elektrycznych oraz sprzętu rowerowego.
-               Dodatkowo nasi klienci mają możliwość darmowego przewozu wypożyczonego roweru naszymi gondolami. Jest to łatwiejszy wariant zrobienia pętli dookoła jeziora ścieżką rowerową "Velo Dunajec".
-               Zapraszamy do kontaktu i składania rezerwacji.` ,
+    description: ` Zapraszamy do skorzystania z naszej wypożyczalni rowerów „Velo Czorsztyn”, zlokalizowanej bezpośrednio przy naszej przystani gondoli nad Jeziorem Czorsztyńskim. To idealne miejsce dla wszystkich miłośników aktywnego wypoczynku, którzy chcą połączyć przyjemność zwiedzania z komfortem i swobodą jazdy na rowerze w jednej z najpiękniejszych okolic Małopolski.` ,
     afterLink: "lub telefonicznie +48 509 923 730",
     imageSrc: bikesImage,
     imageAlt: "Zdjęcie rowerów",
