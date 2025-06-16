@@ -1,5 +1,5 @@
 import { useShowMore } from "../../../hooks/useShowMore";
-import { BoldText, ButtonDiv, CruiseSubHeader, CruiseWrapper, Description, ListItem, ListTitle, ShowMoreButton, ShowMoreContent, StyledList } from "../styled";
+import { BoldText, ButtonDiv, CruiseSubHeader, CruiseWrapper, Description, ListItem, ShowMoreButton, ShowMoreContent, StyledList } from "../styled";
 
 
 const Bikes = () => {
@@ -68,10 +68,6 @@ const Bikes = () => {
                     <ListItem>
                         <BoldText>Dla turystów pieszych: </BoldText>
                         Jeśli chcesz odkryć region z innej perspektywy i zobaczyć więcej w krótszym czasie.
-                    </ListItem>
-                    <ListItem>
-                        <BoldText>Dla rowerzystów: </BoldText>
-                        Niezależnie, czy planujesz całodniową trasę po górach, czy krótszy, rekreacyjny przejazd wzdłuż jeziora.
                     </ListItem>
                     <ListItem>
                         <BoldText>Dla miłośników natury: </BoldText>
