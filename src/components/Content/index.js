@@ -11,6 +11,7 @@ import Gallery from "../Gallery";
 import { cruiseImages } from "./Cruises/images/cruiseImages";
 import { housesImages } from "./Houses/images/housesImages";
 import BikeRental from "../BikeRental";
+import { bikesImages } from "./Bikes/images/bikesImages";
 
 const Content = () => {
     return (
@@ -24,6 +25,7 @@ const Content = () => {
             <ContentSection {...bikesData} />
             <BikeRental />
             <BikesPriceList />
+            <Gallery title="Galeria zdjęć rowerów" images={bikesImages} />
             <Address />
         </ Container>
     );

@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
+import { useShowMore } from "../../hooks/useShowMore";
 import { ButtonDiv, GalleryGrid, GalleryHeader, GalleryImage, GalleryWrapper, ShowMoreButton, SubHeader } from "./styled";
 import Lightbox from "yet-another-react-lightbox";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
@@ -6,23 +7,12 @@ import "yet-another-react-lightbox/styles.css";
 
 const Gallery = ({ title, images }) => {
 
+    const { showAll, handleToggle, buttonRef } = useShowMore();
     const [index, setIndex] = useState(-1);
-    const [showAll, setShowAll] = useState(false);
-    const buttonRef = useRef(null);
-    const prevShowAllRef = useRef(showAll);
-
-    useEffect(() => {
-        if (prevShowAllRef.current === true && showAll === false && buttonRef.current) {
-            buttonRef.current.scrollIntoView({ behavior: "smooth", block: "center" });
-        }
-        prevShowAllRef.current = showAll;
-    }, [showAll]);
-
-    const handleToggle = () => {
-        setShowAll(prev => !prev);
-    };
 
     const isHouseGallery = title.toLowerCase().includes("domków");
+
+    const displayedImages = showAll ? images : images.slice(0, 4);
 
     const house = images.slice(0, 4)
     const firstHouse = images.slice(4, 9);
@@ -101,7 +91,7 @@ const Gallery = ({ title, images }) => {
         <GalleryWrapper>
             <GalleryHeader>{title}</GalleryHeader>
             <GalleryGrid>
-                {images.map((img, index) => (
+                {displayedImages.map((img, index) => (
                     <GalleryImage
                         key={index}
                         src={img}
@@ -111,6 +101,14 @@ const Gallery = ({ title, images }) => {
                     />
                 ))}
             </GalleryGrid>
+
+            {images.length > 4 && (
+                <ButtonDiv>
+                    <ShowMoreButton onClick={handleToggle} ref={buttonRef}>
+                        {showAll ? "Ukryj więcej zdjęć" : "Pokaż więcej zdjęć"}
+                    </ShowMoreButton>
+                </ButtonDiv>
+            )}
 
             <Lightbox
                 open={index >= 0}
