@@ -85,7 +85,7 @@ const PriceList = () => (
             <ContactSection>
                 <SubHeader>Nasza lokalizacja w Niedzicy</SubHeader>
                 <ContactInfo>
-                    Pomost Gondoli Czorsztynianka<br />
+                    Pomost gondoli Czorsztynianka<br />
                     Osiedle Zamek 11 <br />
                     34-441 Niedzica
                     <LinkWrapper>

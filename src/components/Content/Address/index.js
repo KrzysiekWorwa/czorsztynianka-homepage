@@ -50,7 +50,7 @@ const Address = () => (
                     Nasza lokalizacja w Niedzicy
                 </AddressSubHeader>
                 <Info>
-                    Pomost dla gondoli Niedzica <br />
+                    Pomost gondoli Czorsztynianka <br />
                     Osiedle Zamek 11 <br />
                     34-441 Niedzica <br />
                 </Info>
