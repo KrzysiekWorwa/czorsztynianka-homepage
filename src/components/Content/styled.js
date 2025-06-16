@@ -328,8 +328,8 @@ export const ButtonDiv = styled.div`
 
 export const ShowMoreButton = styled.button`
   display: none;
-  background: white;
-  color: black;
+  background: #93A981;
+  color: white;
   padding: 30px 40px;
   font-size: 23px;
   font-weight: bold;
@@ -340,8 +340,7 @@ export const ShowMoreButton = styled.button`
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 
     &:hover {
-        border-color: rgba(3, 102, 214, 0.2);
-        color: rgb(68, 68, 68);
+        border-color:hsl(93, 18.90%, 60%);
     }
 
       @media (max-width: 768px) {
