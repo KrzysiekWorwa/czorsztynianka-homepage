@@ -21,7 +21,7 @@ const PriceList = () => (
                 <TableRow>
                     <TableCell data-label="Typ rejsu">Rejs w jedną stronę</TableCell>
                     <TableCell data-label="Ikona"><OneSideIcon /></TableCell>
-                    <TableCell data-label="Bilet normalny">17 PLN</TableCell>
+                    <TableCell data-label="Bilet normalny">5000 PLN</TableCell>
                     <TableCell data-label="Bilet ulgowy">14 PLN</TableCell>
                 </TableRow>
                 <TableRow>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useShowMore } from "../../hooks/useShowMore";
 import { Container, BikesSection, BikeImage, BikeContent, Title, Description, Header, ButtonDiv, ShowMoreButton, PriceTag } from "./styled";
 import { bikeList } from "./bikesData";
+import { StaggeredContainer, StaggeredItem } from "../animations/staggeredFadeIn";
 
 const useIsMobile = (maxWidth = 767) => {
     const [isMobile, setIsMobile] = useState(
@@ -30,28 +31,34 @@ const BikeRental = () => {
 
     return (
         <Container>
-            <Header>Nasz sprzęt</Header>
-            {contentToShow.map((bike) =>
-                <BikesSection key={bike.id}>
-                    <BikeImage src={bike.image} alt={bike.title} />
-                    <BikeContent>
-                        <Title>
-                            {bike.title}
-                        </Title>
-                        <Description>
-                            {bike.description}
-                        </Description>
-                        <PriceTag>{bike.price}</PriceTag>
-                    </BikeContent>
-                </BikesSection>
-            )}
-            {bikeList.length > 3 && (
-                <ButtonDiv>
-                    <ShowMoreButton onClick={handleToggle} ref={buttonRef}>
-                        {showAll ? "Pokaż mniej" : "Rozwiń pełną listę"}
-                    </ShowMoreButton>
-                </ButtonDiv>
-            )}
+            <StaggeredContainer>
+                <StaggeredItem>
+                    <Header>Nasz sprzęt</Header>
+                </StaggeredItem>
+                <StaggeredItem>
+                    {contentToShow.map((bike) =>
+                        <BikesSection key={bike.id}>
+                            <BikeImage src={bike.image} alt={bike.title} />
+                            <BikeContent>
+                                <Title>
+                                    {bike.title}
+                                </Title>
+                                <Description>
+                                    {bike.description}
+                                </Description>
+                                <PriceTag>{bike.price}</PriceTag>
+                            </BikeContent>
+                        </BikesSection>
+                    )}
+                </StaggeredItem>
+                {bikeList.length > 3 && (
+                    <ButtonDiv>
+                        <ShowMoreButton onClick={handleToggle} ref={buttonRef}>
+                            {showAll ? "Pokaż mniej" : "Rozwiń pełną listę"}
+                        </ShowMoreButton>
+                    </ButtonDiv>
+                )}
+            </StaggeredContainer>
         </Container>
     );
 };
