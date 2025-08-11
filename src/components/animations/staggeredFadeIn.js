@@ -20,7 +20,7 @@ export const StaggeredContainer = ({ children }) => (
   <motion.div
     variants={containerVariants}
     initial="hidden"
-    animate="show"
+    whileInView="show"
     viewport={{ once: true, amount: 0.2 }}
   >
     {children}
