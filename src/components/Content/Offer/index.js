@@ -17,7 +17,7 @@ const Offer = () => {
                 </Tile>
                 <Tile as={Link} to="rowery" smooth={true} duration={1200} offset={-90} style={{ cursor: 'pointer' }}>
                     <Name>Wypożyczalnia rowerów "Velo Czorsztyn"</Name>
-                    <Description>Wypożyczalnia rowerów tradycyjnych, elektycznych oraz sprzętu rowerowego znajdująca się przy naszej przystani w Czorsztynie</Description>
+                    <Description>Wypożyczalnia rowerów tradycyjnych, elektrycznych oraz sprzętu rowerowego znajdująca się przy naszej przystani w Czorsztynie</Description>
                 </Tile>
             </List>
         </ListWrapper>
