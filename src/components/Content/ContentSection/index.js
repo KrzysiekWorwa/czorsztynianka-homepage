@@ -30,9 +30,13 @@ const ContentSection = ({
                 </StaggeredItem>
             </StaggeredContainer>
             <DescriptionSection>
-                <Description>
-                    {description}
-                </Description>
+                <StaggeredContainer>
+                    <StaggeredItem>
+                        <Description>
+                            {description}
+                        </Description>
+                    </StaggeredItem>
+                </StaggeredContainer>
                 {linkHref && (
                     <>
                         <Houses />
