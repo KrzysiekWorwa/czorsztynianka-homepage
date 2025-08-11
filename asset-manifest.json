@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7a7431fa.css",
-    "main.js": "./static/js/main.295182e1.js",
+    "main.js": "./static/js/main.430de1cd.js",
     "static/js/453.4f50ac07.chunk.js": "./static/js/453.4f50ac07.chunk.js",
     "static/media/logo-ekomuzeum.jpeg": "./static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
     "static/media/baner-1440.webp": "./static/media/baner-1440.804c71dee9d230f3d82a.webp",
@@ -62,6 +62,7 @@
     "static/media/bicycle-54.svg": "./static/media/bicycle-54.9e2a95417dc898821d8387493b87300d.svg",
     "static/media/instagramIcon.svg": "./static/media/instagramIcon.7bad0c3cde2835fa701a1538d5bc741b.svg",
     "static/media/bicycle-electric-svgrepo-com.svg": "./static/media/bicycle-electric-svgrepo-com.effe5cdcb7321624ede29330a9622255.svg",
+    "static/media/vip.svg": "./static/media/vip.0d9f4438ab21da10239c05a5d693136a.svg",
     "static/media/bicycle-helmet-svgrepo-com.svg": "./static/media/bicycle-helmet-svgrepo-com.008b81e841b4a66d09e122e530058dd0.svg",
     "static/media/bicycle-trailer-svgrepo-com.svg": "./static/media/bicycle-trailer-svgrepo-com.89e19e26d78e0a4afdecd2b3ed381fc4.svg",
     "static/media/car-seat-with-seatbelt-svgrepo-com.svg": "./static/media/car-seat-with-seatbelt-svgrepo-com.2a985e35d5b7eeee5af0b4017d1cc893.svg",
@@ -77,11 +78,11 @@
     "static/media/1sideIcon.svg": "./static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "./static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "./static/css/main.7a7431fa.css.map",
-    "main.295182e1.js.map": "./static/js/main.295182e1.js.map",
+    "main.430de1cd.js.map": "./static/js/main.430de1cd.js.map",
     "453.4f50ac07.chunk.js.map": "./static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.295182e1.js"
+    "static/js/main.430de1cd.js"
   ]
 }
