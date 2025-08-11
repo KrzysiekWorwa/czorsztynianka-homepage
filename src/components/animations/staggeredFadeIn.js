@@ -12,15 +12,15 @@ const containerVariants = {
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 40 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  hidden: { opacity: 0,  scale: 0.9 },
+  show: { opacity: 1,  scale: 1, transition: { duration: 0.6 } },
 };
 
 export const StaggeredContainer = ({ children }) => (
   <motion.div
     variants={containerVariants}
     initial="hidden"
-    whileInView="show"
+    animate="show"
     viewport={{ once: true, amount: 0.2 }}
   >
     {children}

@@ -60,6 +60,7 @@ export const ImageWrapper = styled.div`
   position: relative;
   width: 100%;
   order: 3;
+  min-height: 188px;
 
 
   @media (min-width: 992px) {
