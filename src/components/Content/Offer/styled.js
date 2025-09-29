@@ -15,27 +15,35 @@ export const ListWrapper = styled.section`
 export const List = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: stretch;
     grid-gap: 32px;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
 
     @media (max-width: 991px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
+        max-width: 75%;
     }
     `;
 
 export const Tile = styled.li`
-    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    padding: 30px 20px 30px 20px;
     border-radius: 10px;
     border: 2px solid rgb(240, 240, 240);
     margin: 0;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
 
-    &:hover {
-        border-color: rgba(3, 102, 214, 0.2);
-    }
+        &:hover {
+            transform: scale(1.05);
+        }
 
     @media (max-width: 767px) {
         padding: 30px;
@@ -54,11 +62,10 @@ export const Name = styled.h3`
 
 export const Description = styled.p`
     font-size: 18px;
-    margin-top: 24px;
+    margin-bottom: 0;
     line-height: 1.4;
 
     @media (max-width: 767px) {
-        margin-top: 16px;
         font-size: 16px;
     }
 `;
