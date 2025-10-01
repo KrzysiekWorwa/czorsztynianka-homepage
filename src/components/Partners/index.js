@@ -12,9 +12,12 @@ const Partners = () => (
             modules={[Autoplay]}
             slidesPerView={3}
             spaceBetween={30}
+            speed={4000}
             loop={true}
+            freeMode={true}
+            style={{ overflow: "visible" }}
             autoplay={{
-                delay: 2000,
+                delay: 0,
                 disableOnInteraction: false,
                 pauseOnMouseEnter: true,
             }}
