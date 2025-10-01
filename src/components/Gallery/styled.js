@@ -52,20 +52,20 @@ export const ButtonDiv = styled.div`
 `;
 
 export const ShowMoreButton = styled.button`
-  background: #93A981;
   color: white;
   padding: 30px 40px;
   font-size: 23px;
   font-weight: bold;
-  border: 2px solid rgb(240, 240, 240);
+  border: 2px solid hsla(93, 19%, 58%, 1.00);
   border-radius: 10px;
   cursor: pointer;
   margin: 0;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, border-color 0.3s;
+  background-color: hsla(93, 19%, 58%, 1.00);
 
     &:hover {
-        border-color:hsl(93, 18.90%, 60%);
-        color: hsl(0, 0.00%, 90%);
+        background-color: hsla(93, 30%, 67%, 1.00);
+        border-color: hsla(93, 30%, 67%, 1.00);
     }
 
     @media (max-width: 992px) {
