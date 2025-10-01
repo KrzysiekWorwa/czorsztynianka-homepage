@@ -56,7 +56,8 @@ export const DescriptionSection = styled.div`
 `;
 
 export const ImageWrapper = styled.div`
-  margin-top: 25px;
+  margin: 25px;
+  margin-bottom: 0;
   position: relative;
   width: 100%;
   order: 3;
@@ -71,6 +72,7 @@ export const ImageWrapper = styled.div`
     background-attachment: fixed;
     height: 500px;
     width: 100vw;
+    margin-bottom: 25px;
   }
 `;
 

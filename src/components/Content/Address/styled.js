@@ -42,18 +42,19 @@ export const LinkWrapper = styled.div`
 `;
 
 export const AddressLink = styled.a`
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s;
     color: #93A981;
 
     &:hover {
-        color: #252525;
+        color: hsla(93, 30%, 67%, 1.00);
+        transform: scale(1.05);
     }
 
     @media (max-width: 767px) {
