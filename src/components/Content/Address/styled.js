@@ -87,22 +87,24 @@ export const IconsWrapper = styled.div`
 export const FacebookIcon = styled(FacebookIconLink)`
     width: 48px;
     height: 48px;
-    color: #252525;
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s;
+    color: hsla(93, 19%, 58%, 1.00);
 
-        &:hover {
-        color: #93A981;
+    &:hover {
+        color: hsla(93, 30%, 67%, 1.00);
+        transform: scale(1.05);
     }
 `;
 
 export const InstagramIcon = styled(InstagramIconLink)`
     width: 48px;
     height: 48px;
-    color: #252525;
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s;
+    color: hsla(93, 19%, 58%, 1.00);
 
-        &:hover {
-        color: #93A981;
+    &:hover {
+        color: hsla(93, 30%, 67%, 1.00);
+        transform: scale(1.05);
     }
 `;
 

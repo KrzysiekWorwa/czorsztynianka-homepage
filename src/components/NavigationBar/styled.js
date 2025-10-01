@@ -67,6 +67,7 @@ export const NavItem = styled(Link)`
   transition: color 0.2s ease;
   text-transform: uppercase;
   text-align: center;
+  transition: transform 0.3s ease, color 0.3s;
 
      @media (max-width: 1050px) {
         color: black;
@@ -131,10 +132,11 @@ export const FacebookIcon = styled(FacebookIconLink)`
     width: 48px;
     height: 48px;
     color: white;
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s;
 
         &:hover {
         color:rgb(221, 221, 221);
+        transform: scale(1.05);
     }
 `;
 
@@ -142,10 +144,11 @@ export const InstagramIcon = styled(InstagramIconLink)`
     width: 48px;
     height: 48px;
     color: white;
-    transition: color 0.3s;
+    transition: transform 0.3s ease, color 0.3s;
 
         &:hover {
         color:rgb(221, 221, 221);
+        transform: scale(1.05);
     }
 `;
 
