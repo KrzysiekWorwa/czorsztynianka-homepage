@@ -79,16 +79,19 @@ export const TableHeader = styled.th`
 export const TableRow = styled.tr`
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 
   @media (max-width: 768px) {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     margin-bottom: 20px;
     border: 2px solid rgb(241, 241, 241);
     border-radius: 10px;
     padding: 10px;
     font-size: 16px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    max-width: 85%;
   }
 `;
 
@@ -124,6 +127,7 @@ export const TableCell = styled.td`
     }
 
       &[data-label="Ikona"] {
+        order: -1;
         text-align: center;
         padding-left: 0;
 

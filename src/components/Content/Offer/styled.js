@@ -24,7 +24,7 @@ export const List = styled.ul`
     @media (max-width: 991px) {
         grid-template-columns: 1fr;
         grid-gap: 24px;
-        max-width: 75%;
+        max-width: 85%;
     }
     `;
 
