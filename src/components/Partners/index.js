@@ -15,7 +15,6 @@ const Partners = () => (
             speed={4000}
             loop={true}
             freeMode={true}
-            style={{ overflow: "visible" }}
             autoplay={{
                 delay: 0,
                 disableOnInteraction: false,
@@ -28,7 +27,8 @@ const Partners = () => (
             }}
         >
             {partners.map((partner, index) => (
-                <SwiperSlide key={index}>
+                <SwiperSlide key={index}
+                    style={{ overflow: "visible" }}>
                     <SlideContent
                         href={partner.link}
                         target="_blank"

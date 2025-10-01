@@ -5,7 +5,7 @@ export const Header = styled.h2`
     text-align: center;
     
     @media (max-width: 767px) {
-font-size: 32px;
+        font-size: 32px;
 }
 `;
 
@@ -14,6 +14,13 @@ export const PartnersWrapper = styled.div`
     padding: 40px 0;
     padding-top: 0;
     margin-bottom: 80px;
+    overflow-x: hidden;
+
+    .swiper,
+    .swiper-wrapper,
+    .swiper-slide {
+        overflow: visible;
+    }
 
      @media (max-width: 767px) {
         margin-bottom: 50px;
@@ -33,7 +40,11 @@ export const SlideContent = styled.a`
 `;
 
 export const Logo = styled.img`
-    height: 100px;
+    height: 120px;
     object-fit: contain;
     max-width: 100%;
+
+        @media (max-width: 767px) {
+            height: 85px;
+    }
 `;
