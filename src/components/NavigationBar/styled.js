@@ -151,5 +151,3 @@ export const InstagramIcon = styled(InstagramIconLink)`
         transform: scale(1.05);
     }
 `;
-
-

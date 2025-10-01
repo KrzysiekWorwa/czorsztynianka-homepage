@@ -32,7 +32,7 @@ const Partners = () => (
                         rel="noopener noreferrer"
                         title={`Przejdź do ${partner.link}`}
                     >
-                        <Logo src={partner.logo} alt={`Partner ${index + 1}`} />
+                        <Logo src={partner.logo} alt={partner.alt} />
                     </SlideContent>
                 </SwiperSlide>
             ))}

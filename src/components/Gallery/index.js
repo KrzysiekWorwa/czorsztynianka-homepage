@@ -28,7 +28,7 @@ const Gallery = ({ title, images }) => {
                             key={index}
                             src={img}
                             loading="lazy"
-                            alt={`domki ${index}`}
+                            alt={`Cozy lakeside cottage in Niedzica ${index}`}
                             onClick={() => setIndex(index)}
                         />
                     ))}
@@ -43,7 +43,7 @@ const Gallery = ({ title, images }) => {
                                     key={index + 4}
                                     src={img}
                                     loading="lazy"
-                                    alt={`domki ${index + 4}`}
+                                    alt={`Cozy lakeside cottage in Niedzica ${index + 4}`}
                                     onClick={() => setIndex(index + 4)}
                                 />
                             ))}
@@ -60,7 +60,7 @@ const Gallery = ({ title, images }) => {
                                     key={index + 9}
                                     src={img}
                                     loading="lazy"
-                                    alt={`domki ${index + 9}`}
+                                    alt={`Cozy lakeside cottage in Niedzica ${index + 9}`}
                                     onClick={() => setIndex(index + 9)}
                                 />
                             ))}

@@ -11,7 +11,7 @@ const NavigationBar = () => {
         <Navbar>
             <NavWrapper>
                 <Link to="home" smooth={true} duration={600} offset={-90}>
-                    <NavLogo src={Logo} alt="Logo" />
+                    <NavLogo src={Logo} alt="Czorsztynianka logo" />
                 </Link>
 
                 <Burger onClick={() => setIsOpen(!isOpen)}>
@@ -25,16 +25,16 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-90}>
                         Home
                     </NavItem>
-                    <NavItem to="usługi" smooth={true} duration={600} offset={-90}>
+                    <NavItem to="services" smooth={true} duration={600} offset={-90}>
                         Oferta
                     </NavItem>
-                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-90}>
+                    <NavItem to="cruises" smooth={true} duration={800} offset={-90}>
                         Rejsy gondolami
                     </NavItem>
-                    <NavItem to="domki" smooth={true} duration={1000} offset={-90}>
+                    <NavItem to="cottages" smooth={true} duration={1000} offset={-90}>
                         Noclegi
                     </NavItem>
-                    <NavItem to="rowery" smooth={true} duration={1200} offset={-90}>
+                    <NavItem to="bikes" smooth={true} duration={1200} offset={-90}>
                         Wypożyczalnia rowerów
                     </NavItem>
                     <NavItem to="address" smooth={true} duration={1400} offset={-90}>
@@ -57,16 +57,16 @@ const NavigationBar = () => {
                     <NavItem to="home" smooth={true} duration={600} offset={-50}>
                         Home
                     </NavItem>
-                    <NavItem to="usługi" smooth={true} duration={600} offset={-310}>
+                    <NavItem to="services" smooth={true} duration={600} offset={-310}>
                         Oferta
                     </NavItem>
-                    <NavItem to="rejsy-po-jeziorze" smooth={true} duration={800} offset={-270}>
+                    <NavItem to="cruises" smooth={true} duration={800} offset={-270}>
                         Rejsy gondolami
                     </NavItem>
-                    <NavItem to="domki" smooth={true} duration={1000} offset={-270}>
+                    <NavItem to="cottages" smooth={true} duration={1000} offset={-270}>
                         Noclegi
                     </NavItem>
-                    <NavItem to="rowery" smooth={true} duration={1200} offset={-270}>
+                    <NavItem to="bikes" smooth={true} duration={1200} offset={-270}>
                         Wypożyczalnia rowerów
                     </NavItem>
                     <NavItem to="address" smooth={true} duration={1400} offset={-320}>
