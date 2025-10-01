@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 export const FooterSection = styled.footer`
     background: #93A981;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     margin-top: 60px;
 
@@ -22,8 +22,7 @@ export const FooterWrapper = styled.div`
 
 export const FooterLogo = styled.img`
     height: auto;
-    width: 90px;
-
+    width: 150px;
 `;
 
 export const FooterIcons = styled.div`
@@ -58,6 +57,9 @@ export const InstagramIcon = styled(InstagramIconLink)`
 `;
 
 export const FooterCopyright = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     line-height: 1.2;
     font-size: 18px;
@@ -71,7 +73,7 @@ export const HomeButton = styled(Link)`
     margin: 0 auto;
     padding: 10px;
     position: relative;
-    top: -78px;
+    top: -60px;
     cursor: pointer;
 
           svg {

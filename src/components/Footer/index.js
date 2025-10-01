@@ -20,8 +20,8 @@ const Footer = () => (
                     </a>
                 </FooterIcons>
                 <FooterCopyright>
-                    Czorsztynianka<br />
-                    © Copyright 2025
+                    <span>Czorsztynianka</span>
+                    <span>© Copyright 2025</span>
                 </FooterCopyright>
             </FooterWrapper>
         </FooterSection>
