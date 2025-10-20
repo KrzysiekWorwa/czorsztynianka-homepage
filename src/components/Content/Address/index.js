@@ -1,4 +1,4 @@
-import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressHeader, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, MapContainer, PhoneIcon, MailIcon, PinIcon } from "./styled";
+import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressHeader, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, MapContainer, PhoneIcon, MailIcon, PinIcon, ButtonDiv, TourButton } from "./styled";
 import { StaggeredContainer, StaggeredItem } from "../../animations/staggeredFadeIn"
 
 const Address = () => (
@@ -63,6 +63,14 @@ const Address = () => (
                         </LinkWrapper>
                     </AddressInfo>
                 </AddressContentWrapper>
+                <ButtonDiv>
+                    <TourButton href="https://tour.panoee.net/czorsztynianka-przystan-w-czorsztynie" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Czorsztynie">
+                        Wirtualny spacer w Czorsztynie
+                    </TourButton>
+                    <TourButton>
+                        Wirtualny spacer w Niedzicy
+                    </TourButton>
+                </ButtonDiv>
             </StaggeredItem>
         </StaggeredContainer>
         <StaggeredContainer>

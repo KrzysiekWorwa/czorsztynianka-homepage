@@ -176,3 +176,30 @@ export const PinIcon = styled(PinIconLink)`
           height: 17px;
 }
   `;
+
+export const ButtonDiv = styled.div`
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin: 40px 0;
+`;
+
+export const TourButton = styled.a`
+  width: 457px;
+  color: white;
+  padding: 30px 40px;
+  font-size: 23px;
+  font-weight: bold;
+  border: 2px solid hsla(93, 19%, 58%, 1.00);
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0;
+  transition: background-color 0.3s, border-color 0.3s;
+  background-color: hsla(93, 19%, 58%, 1.00);
+
+    &:hover {
+        background-color: hsla(93, 30%, 67%, 1.00);
+        border-color: hsla(93, 30%, 67%, 1.00);
+    }
+`;
