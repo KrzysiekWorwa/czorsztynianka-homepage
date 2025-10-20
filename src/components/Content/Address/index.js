@@ -1,4 +1,4 @@
-import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressHeader, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, MapContainer, PhoneIcon, MailIcon, PinIcon, ButtonDiv, TourButton } from "./styled";
+import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressHeader, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, MapContainer, PhoneIcon, MailIcon, PinIcon, TourIcon } from "./styled";
 import { StaggeredContainer, StaggeredItem } from "../../animations/staggeredFadeIn"
 
 const Address = () => (
@@ -48,6 +48,9 @@ const Address = () => (
                         <LinkWrapper>
                             <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                         </LinkWrapper>
+                        <LinkWrapper>
+                            <AddressLink href="https://tour.panoee.net/czorsztynianka-przystan-w-czorsztynie" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Czorsztynie"><TourIcon />Wirtualny spacer w Czorsztynie</AddressLink>
+                        </LinkWrapper>
                     </AddressInfo>
                     <AddressInfo>
                         <AddressSubHeader>
@@ -61,16 +64,11 @@ const Address = () => (
                         <LinkWrapper>
                             <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                         </LinkWrapper>
+                        <LinkWrapper>
+                            <AddressLink href="https://tour.panoee.net/czorsztynianka-przystan-w-czorsztynie" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Niedzicy"><TourIcon />Wirtualny spacer w Niedzicy</AddressLink>
+                        </LinkWrapper>
                     </AddressInfo>
                 </AddressContentWrapper>
-                <ButtonDiv>
-                    <TourButton href="https://tour.panoee.net/czorsztynianka-przystan-w-czorsztynie" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Czorsztynie">
-                        Wirtualny spacer w Czorsztynie
-                    </TourButton>
-                    <TourButton>
-                        Wirtualny spacer w Niedzicy
-                    </TourButton>
-                </ButtonDiv>
             </StaggeredItem>
         </StaggeredContainer>
         <StaggeredContainer>
