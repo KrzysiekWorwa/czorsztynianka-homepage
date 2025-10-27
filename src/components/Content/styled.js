@@ -4,6 +4,7 @@ import { ReactComponent as MailIconLink } from "../SvgIcons/mail.svg";
 import { ReactComponent as PinIconLink } from "../SvgIcons/pin.svg";
 import { ReactComponent as BookingIconLink } from "../SvgIcons/booking.svg";
 import { ReactComponent as StatuteIconLink } from "../SvgIcons/statute.svg";
+import { ReactComponent as TourIconLink } from "../SvgIcons/360.svg";
 
 export const Container = styled.div`
   max-width: 1440px;
@@ -263,6 +264,17 @@ export const StatuteIcon = styled(StatuteIconLink)`
     transition: color 0.3s;
 
       @media (max-width: 767px) {
+          width: 17px;
+          height: 17px;
+}
+`;
+
+export const TourIcon = styled(TourIconLink)`
+    width: 24px;
+    height: 24px;
+    transition: color 0.3s;
+
+        @media (max-width: 767px) {
           width: 17px;
           height: 17px;
 }

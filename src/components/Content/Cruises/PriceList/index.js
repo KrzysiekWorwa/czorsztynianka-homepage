@@ -1,5 +1,5 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
-import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper, ContactInfo, ContactSection, PhoneIcon, MailIcon, PinIcon } from "../../styled";
+import { Header, Wrapper, StyledTable, TableHeader, TableCell, TableRow, Info, SubHeader, LinkWrapper, AddressLink, ContactWrapper, ContactInfo, ContactSection, PhoneIcon, MailIcon, PinIcon, TourIcon } from "../../styled";
 import { ReactComponent as OneSideIcon } from "./priceIcons/1sideIcon.svg";
 import { ReactComponent as TwoSideIcon } from "./priceIcons/2sidesIcon.svg";
 import { ReactComponent as RoundIcon } from "./priceIcons/RoundIcon.svg";
@@ -96,6 +96,9 @@ const PriceList = () => (
                             <LinkWrapper>
                                 <AddressLink href="https://maps.app.goo.gl/vbb4muGnBGXNeTh29" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                             </LinkWrapper>
+                            <LinkWrapper>
+                                <AddressLink href="https://tour.panoee.net/czorsztynianka-przystan-w-czorsztynie" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Czorsztynie"><TourIcon />Wirtualny spacer w Czorsztynie</AddressLink>
+                            </LinkWrapper>
                         </ContactInfo>
                     </ContactSection>
                     <ContactSection>
@@ -106,6 +109,9 @@ const PriceList = () => (
                             34-441 Niedzica
                             <LinkWrapper>
                                 <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
+                            </LinkWrapper>
+                            <LinkWrapper>
+                                <AddressLink href="https://tour.panoee.net/czorsztynianka-przystan-w-niedzicy" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Niedzicy"><TourIcon />Wirtualny spacer w Niedzicy</AddressLink>
                             </LinkWrapper>
                         </ContactInfo>
                     </ContactSection>

@@ -65,7 +65,7 @@ const Address = () => (
                             <AddressLink href="https://maps.app.goo.gl/FuhZFBqRTVSLS9eT6" target="_blank" rel="noopener noreferrer" title="Link do Google Maps"><PinIcon />Nawiguj z Google Maps</AddressLink>
                         </LinkWrapper>
                         <LinkWrapper>
-                            <AddressLink href="https://tour.panoee.net/czorsztynianka-przystan-w-czorsztynie" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Niedzicy"><TourIcon />Wirtualny spacer w Niedzicy</AddressLink>
+                            <AddressLink href="https://tour.panoee.net/czorsztynianka-przystan-w-niedzicy" target="_blank" rel="noopener noreferrer" title="Wirtualny spacer po przystani w Niedzicy"><TourIcon />Wirtualny spacer w Niedzicy</AddressLink>
                         </LinkWrapper>
                     </AddressInfo>
                 </AddressContentWrapper>
