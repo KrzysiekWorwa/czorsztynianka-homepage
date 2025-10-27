@@ -58,7 +58,7 @@ const ContentSection = ({
                                             <AddressLink href={linkHref} target={linkTarget} rel={linkRel}><BookingIcon />{linkText}</AddressLink>
                                         </LinkWrapper>
                                         <LinkWrapper>
-                                            <AddressLink href="https://zalewczorsztynski.com/wp-content/uploads/2019/07/wiatr_i_woda_regulamin.pdf" target="_blank" rel="noopener noreferrer"><StatuteIcon />Regulamin wynajmu</AddressLink>
+                                            <AddressLink href="https://zalewczorsztynski.com/public_html/docs/domki-regulamin.pdf" target="_blank" rel="noopener noreferrer"><StatuteIcon />Regulamin wynajmu</AddressLink>
                                         </LinkWrapper>
                                     </ContactSection>
                                     <ContactSection>
