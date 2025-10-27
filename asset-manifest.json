@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.7a7431fa.css",
-    "main.js": "./static/js/main.2918b016.js",
+    "main.js": "./static/js/main.4f390516.js",
     "static/js/453.4f50ac07.chunk.js": "./static/js/453.4f50ac07.chunk.js",
     "static/media/logo-ekomuzeum.jpeg": "./static/media/logo-ekomuzeum.b9ea4695c3fcdfdf3d1b.jpeg",
     "static/media/baner-1440.webp": "./static/media/baner-1440.804c71dee9d230f3d82a.webp",
@@ -80,11 +80,11 @@
     "static/media/1sideIcon.svg": "./static/media/1sideIcon.2d1c92016552327f6754fb828a6b05d7.svg",
     "static/media/arrow.svg": "./static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.7a7431fa.css.map": "./static/css/main.7a7431fa.css.map",
-    "main.2918b016.js.map": "./static/js/main.2918b016.js.map",
+    "main.4f390516.js.map": "./static/js/main.4f390516.js.map",
     "453.4f50ac07.chunk.js.map": "./static/js/453.4f50ac07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7431fa.css",
-    "static/js/main.2918b016.js"
+    "static/js/main.4f390516.js"
   ]
 }
